@@ -4,6 +4,15 @@
 
 ### 计算机专业学生 · 备战考研 · AI Agent 开发 · 算法学习
 
+<p>
+  <a href="https://space.bilibili.com/68534484">
+    <img src="https://img.shields.io/badge/Bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white" alt="Bilibili" />
+  </a>
+  <a href="https://www.douyin.com/user/MS4wLjABAAAAfMMMAMkXDWRNCu_KtJq6urPe5G3LRhyK-oEYmwGsy9Q">
+    <img src="https://img.shields.io/badge/Douyin-000000?style=for-the-badge&logo=douyin&logoColor=white" alt="Douyin" />
+  </a>
+</p>
+
 </div>
 
 ---
