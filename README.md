@@ -1,138 +1,75 @@
 <div align="center">
 
-# zbz
+<a href="https://music.apple.com/cn/album/%E5%9C%A8%E9%9B%A8%E5%90%8E%E9%86%92%E6%9D%A5/1845141403">
+  <img src="./assets/after-rain-wide.png" width="100%" alt="以艾志恒 Asen《在雨后醒来》封面为基础扩展的宽幅画面" />
+</a>
 
-### 计算机专业学生 · 备战考研 · AI Agent 开发 · 算法学习
+<h1>zbz</h1>
+
+<p><strong>计算机专业学生 · 备考 11408</strong></p>
+
+<p>算法与数据结构 / 数据库 / AI Agent</p>
 
 <p>
-  <a href="https://space.bilibili.com/68534484">
-    <img src="https://img.shields.io/badge/Bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white" alt="Bilibili" />
-  </a>
-  <a href="https://www.douyin.com/user/MS4wLjABAAAAfMMMAMkXDWRNCu_KtJq6urPe5G3LRhyK-oEYmwGsy9Q">
-    <img src="https://img.shields.io/badge/Douyin-000000?style=for-the-badge&logo=douyin&logoColor=white" alt="Douyin" />
-  </a>
+  <a href="https://github.com/8aus1R/MewCode">MewCode</a>
+  &nbsp;·&nbsp;
+  <a href="https://space.bilibili.com/68534484">Bilibili</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.douyin.com/user/MS4wLjABAAAAfMMMAMkXDWRNCu_KtJq6urPe5G3LRhyK-oEYmwGsy9Q">Douyin</a>
 </p>
 
 </div>
 
 ---
 
-## 👨‍💻 关于我
+## 现在在做
 
-```text
-> 计算机专业学生
-> 正在备战计算机考研
-> 持续学习算法与数据结构
-> 喜欢折腾 AI Agent，也喜欢把自己的学习过程整理下来
-> 屏幕里写代码，耳机里放 Hip-Hop
-```
+备考 **11408**。在复习计算机基础的同时，我主要把时间放在算法、数据库和自己的 Agent 项目上：一边学原理，一边写代码验证理解。
 
-- 🤖 目前主要在做 **MewCode** —— 一个从零开始搭建的 Python 命令行 AI Agent 项目。
-- 🧠 持续整理 **算法与数据结构** 的总结、题解和刷题记录。
-- 📚 一边准备考研，一边继续补基础、写项目、刷算法。
-- 🛠️ 更喜欢通过「自己做、自己调、自己总结」的方式把东西真正学懂。
+### 算法与数据结构
 
----
+持续刷题，也整理每道题背后的思路：为什么这样设计、复杂度是多少、有没有更清楚的写法。希望把数据结构和算法真正用起来，而不是只记住一份题解。
 
-## 🚀 主要项目
+### 数据库
 
-<table>
-<tr>
-<td>
+围绕 SQL、索引、事务等主题补基础，把概念、实际查询和实现原理联系起来。
 
-### 🐱 [MewCode](https://github.com/8aus1R/MewCode)
-
-**从零构建的 Python 命令行 AI 助手 / Agent 框架。**
-
-MewCode 不只是简单调用一次模型 API，而是围绕一个完整 AI Agent 应该具备的能力进行实现：从多轮对话和流式输出，到 Agent Loop、工具调用、上下文管理、持久化记忆、权限控制以及 MCP 工具发现。
-
-目前项目支持 **OpenAI、Anthropic Claude、OpenAI-compatible API、Qwen / DashScope** 等模型服务，同时内置文件读取、写入、编辑、搜索和命令执行等工具，并加入工作区沙箱、命令黑名单、权限模式和交互确认等安全机制。
-
-`Python` · `Agent Loop` · `Tool Calling` · `MCP` · `Context` · `Memory` · `Permissions` · `Multi-provider LLM`
-
-**→ [进入 MewCode 仓库](https://github.com/8aus1R/MewCode)**
-
-</td>
-</tr>
-</table>
+算法与数据库的资料目前在本地整理，上传后会补上仓库链接。
 
 ---
 
-## 🧩 算法与数据结构
+## 主要项目
 
-```cpp
-while (!understand(problem)) {
-    think();
-    draw();
-    code();
-    debug();
-}
+### 🐱 [MewCode](https://github.com/8aus1R/MewCode) — 命令行 AI 助手
 
-// 真正理解 > 死记硬背
-```
+**技术栈：** Python、MCP、OpenAI / Anthropic API、YAML
 
-📚 我会把自己的算法与数据结构总结、刷题记录和解题思路逐步整理到 GitHub 上，也把这里当作长期的学习记录。
+**项目介绍：** 从零构建的 Python 命令行 Agent。它支持多轮对话和流式输出，让模型在 Agent Loop 中调用工具、读取执行结果并继续处理任务；项目同时关注上下文管理、持久化记忆和工具执行的权限边界。
 
----
+**个人职责：**
 
-## 🛠 技术栈
+- 搭建模型接入、Agent 调度、工具注册、上下文管理和权限控制等模块，让对话、工具调用与结果回传形成完整流程。
+- 实现文件读取、写入、编辑、搜索和命令执行工具，并加入 `/plan` 只读规划与 `/do` 显式执行流程。
+- 支持 OpenAI、Anthropic Claude、OpenAI-compatible API 和 Qwen / DashScope，并接入 MCP 工具发现。
 
-<p>
-  <img src="https://img.shields.io/badge/C-111111?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-111111?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-111111?style=for-the-badge&logo=mysql&logoColor=white" />
-</p>
+**技术亮点：**
 
----
+- **Agent Loop 与工具调用**：支持模型连续调用工具，使用统一的工具注册机制和结构化结果；相邻只读工具调用可并发执行，同时保持结果顺序。
+- **上下文与记忆**：支持上下文压缩、会话归档和持久化项目记忆，让长对话与项目资料可以持续使用。
+- **五层权限控制**：通过命令黑名单、工作区沙箱、YAML 规则、权限模式和交互确认限制高风险操作，并设置工具超时与 Agent 迭代上限。
+- **模型与 MCP 扩展**：将模型服务与 Agent 核心分开，并通过 MCP 发现外部工具，方便按需要扩展能力。
 
-## 🎧 写完代码之后
-
-<div align="center">
-
-<a href="https://open.spotify.com/album/5YCrakqvO7BaesMX3Gytz1">
-  <img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/d3/1a/25d31aad-fdea-8dc7-16df-5ea45f9fea48/dj.jmofkndw.jpg/1000x1000bb.jpg" width="430" alt="Life After Small Town - 艾志恆Asen" />
-</a>
-
-### LIFE AFTER SMALL TOWN
-
-**艾志恆 Asen · 2024**
-
-🎤 喜欢的说唱歌手：**艾志恆 Asen**
-
-<a href="https://open.spotify.com/album/5YCrakqvO7BaesMX3Gytz1">
-  <img src="https://img.shields.io/badge/SPOTIFY-Life_After_Small_Town-1DB954?style=for-the-badge&logo=spotify&logoColor=white" />
-</a>
-
-</div>
-
-> **Life After Small Town —— 从小地方出发，也可以有很大的目标。**
-
----
-
-## 📊 GitHub 数据
-
-<div align="center">
-
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=8aus1R&show_icons=true&theme=github_dark&hide_border=true&rank_icon=default&include_all_commits=true&custom_title=zbz%27s%20GitHub%20Stats" />
-
-<br/>
-
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=8aus1R&layout=compact&theme=github_dark&hide_border=true&langs_count=6" />
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=8aus1R&style=flat-square&label=PROFILE+VIEWS" />
-
-</div>
+项目仍在持续迭代。代码、使用方法和完整功能列表见 **[MewCode 仓库 →](https://github.com/8aus1R/MewCode)**。
 
 ---
 
 <div align="center">
 
-### `继续学，继续做。`
+<sub>继续学，继续做。 · 顶部画面基于艾志恒 Asen 的 <a href="https://music.apple.com/cn/album/%E5%9C%A8%E9%9B%A8%E5%90%8E%E9%86%92%E6%9D%A5/1845141403">《在雨后醒来》</a>封面扩展制作</sub>
 
-**代码 / 思考 / 构建 / 循环 🎧**
+<br /><br />
+
+<img src="https://github-readme-stats.vercel.app/api?username=8aus1R&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true" alt="GitHub 统计数据" />
 
 </div>
+
