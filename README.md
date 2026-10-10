@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://music.apple.com/cn/album/%E5%9C%A8%E9%9B%A8%E5%90%8E%E9%86%92%E6%9D%A5/1845141403">
-  <img src="https://avatars.githubusercontent.com/u/178260668?v=4" width="430" alt="艾志恒 Asen《在雨后醒来》专辑封面" />
+  <img src="./assets/after-rain-wide.png" width="100%" alt="以艾志恒 Asen《在雨后醒来》封面为基础扩展的宽幅画面" />
 </a>
 
 <h1>zbz</h1>
@@ -65,7 +65,7 @@
 
 <div align="center">
 
-<sub>继续学，继续做。 · 封面来自艾志恒 Asen 的 <a href="https://music.apple.com/cn/album/%E5%9C%A8%E9%9B%A8%E5%90%8E%E9%86%92%E6%9D%A5/1845141403">《在雨后醒来》</a></sub>
+<sub>继续学，继续做。 · 顶部画面基于艾志恒 Asen 的 <a href="https://music.apple.com/cn/album/%E5%9C%A8%E9%9B%A8%E5%90%8E%E9%86%92%E6%9D%A5/1845141403">《在雨后醒来》</a>封面扩展制作</sub>
 
 <br /><br />
 
