@@ -65,10 +65,6 @@
 
 <div align="center">
 
-<sub>继续学，继续做。 · 顶部画面基于艾志恒 Asen 的 <a href="https://music.apple.com/cn/album/%E5%9C%A8%E9%9B%A8%E5%90%8E%E9%86%92%E6%9D%A5/1845141403">《在雨后醒来》</a>封面扩展制作</sub>
-
-<br /><br />
-
 <img src="https://github-readme-stats.vercel.app/api?username=8aus1R&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true" alt="GitHub 统计数据" />
 
 </div>
