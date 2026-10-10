@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://music.apple.com/cn/album/%E5%9C%A8%E9%9B%A8%E5%90%8E%E9%86%92%E6%9D%A5/1845141403">
-  <img src="https://cdn.albumoftheyear.org/album/1503111-_165946.jpg" width="430" alt="艾志恒 Asen《在雨后醒来》专辑封面" />
+  <img src="https://avatars.githubusercontent.com/u/178260668?v=4" width="430" alt="艾志恒 Asen《在雨后醒来》专辑封面" />
 </a>
 
 <h1>zbz</h1>
