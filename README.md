@@ -40,26 +40,26 @@
 
 ## 主要项目
 
-### 🐱 [MewCode](https://github.com/8aus1R/MewCode)
+### 🐱 [MewCode](https://github.com/8aus1R/MewCode) — 命令行 AI 助手
 
-**从零构建的 Python 命令行 AI 助手 / Agent 框架。**
+**技术栈：** Python、MCP、OpenAI / Anthropic API、YAML
 
-MewCode 不只是把问题发给模型再显示回答。我想把一个 Agent 真正运行起来需要的部分逐个做出来：多轮对话与流式输出、模型调用工具、管理上下文和记忆，以及在执行文件和命令操作前做好权限检查。
+**项目介绍：** 从零构建的 Python 命令行 Agent。它支持多轮对话和流式输出，让模型在 Agent Loop 中调用工具、读取执行结果并继续处理任务；项目同时关注上下文管理、持久化记忆和工具执行的权限边界。
 
-```text
-用户输入 → 模型响应 → 工具调用 → 权限检查 → 执行结果 → Agent 继续思考
-```
+**个人职责：**
 
-目前项目已经实现：
+- 搭建模型接入、Agent 调度、工具注册、上下文管理和权限控制等模块，让对话、工具调用与结果回传形成完整流程。
+- 实现文件读取、写入、编辑、搜索和命令执行工具，并加入 `/plan` 只读规划与 `/do` 显式执行流程。
+- 支持 OpenAI、Anthropic Claude、OpenAI-compatible API 和 Qwen / DashScope，并接入 MCP 工具发现。
 
-- **Agent Loop 与工具系统**：模型可以连续调用文件读写、编辑、搜索和命令执行等工具；工具有统一的注册与结果结构。
-- **上下文与记忆**：管理多轮历史，支持上下文压缩、会话归档和持久化项目记忆。
-- **权限控制**：结合工作区沙箱、命令黑名单、YAML 规则、权限模式和交互确认，限制有副作用的操作；`/plan` 可先只读规划，`/do` 再显式执行。
-- **模型与扩展**：支持 OpenAI、Anthropic Claude、OpenAI-compatible API 和 Qwen / DashScope，并支持 MCP 工具发现。
+**技术亮点：**
 
-这个项目还在持续迭代。我把它当作理解 Agent 工程的一次完整实践：让模型、工具、上下文和安全边界能协同工作。代码、使用方法和完整功能列表都在 **[MewCode 仓库 →](https://github.com/8aus1R/MewCode)**。
+- **Agent Loop 与工具调用**：支持模型连续调用工具，使用统一的工具注册机制和结构化结果；相邻只读工具调用可并发执行，同时保持结果顺序。
+- **上下文与记忆**：支持上下文压缩、会话归档和持久化项目记忆，让长对话与项目资料可以持续使用。
+- **五层权限控制**：通过命令黑名单、工作区沙箱、YAML 规则、权限模式和交互确认限制高风险操作，并设置工具超时与 Agent 迭代上限。
+- **模型与 MCP 扩展**：将模型服务与 Agent 核心分开，并通过 MCP 发现外部工具，方便按需要扩展能力。
 
-`Python` · `Agent Loop` · `Tool Calling` · `MCP` · `Context` · `Memory` · `Permissions`
+项目仍在持续迭代。代码、使用方法和完整功能列表见 **[MewCode 仓库 →](https://github.com/8aus1R/MewCode)**。
 
 ---
 
