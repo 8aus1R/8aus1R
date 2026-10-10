@@ -13,6 +13,8 @@
 <p>
   <a href="https://github.com/8aus1R/MewCode">MewCode</a>
   &nbsp;·&nbsp;
+  <a href="https://github.com/8aus1R/algorithms-and-data-structures">算法与数据结构</a>
+  &nbsp;·&nbsp;
   <a href="https://space.bilibili.com/68534484">Bilibili</a>
   &nbsp;·&nbsp;
   <a href="https://www.douyin.com/user/MS4wLjABAAAAfMMMAMkXDWRNCu_KtJq6urPe5G3LRhyK-oEYmwGsy9Q">Douyin</a>
@@ -24,17 +26,17 @@
 
 ## 现在在做
 
-我是计算机科学与技术专业的学生，现在准备 11408。平时主要刷算法题、复习数据库，也在继续做 MewCode。
+我是计算机科学与技术专业的大三学生，正在准备 11408。平时复习数据库，也在继续做 MewCode。
 
-### 算法与数据结构
+### [算法与数据结构](https://github.com/8aus1R/algorithms-and-data-structures)
 
-最近在刷题，也会回头补一补不熟的数据结构。做题时遇到的问题，我会记在本地的笔记里。
+高三暑假第一次知道力扣，大一、大二一直在刷题。这个仓库里放了那时候写的笔记、题解和练习代码，有基础算法、动态规划、图论和数据结构，也有一些比赛代码。
+
+我没有拿过算法奖，大三了也没机会再去打 ACM，还是会觉得遗憾。不过这些笔记和代码是我这两年做题留下的东西，我想把它们留着。考研期间刷题会少一些，等考完还会回来继续写。
 
 ### 数据库
 
-目前在复习 SQL、索引和事务，边看边做笔记。
-
-算法和数据库的笔记还放在电脑上，之后会传到 GitHub。
+目前在复习 SQL、索引和事务，边看边做笔记。数据库笔记还在电脑里，整理好之后再上传。
 
 ---
 
