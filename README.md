@@ -15,6 +15,8 @@
   &nbsp;·&nbsp;
   <a href="https://github.com/8aus1R/algorithms-and-data-structures">算法与数据结构</a>
   &nbsp;·&nbsp;
+  <a href="https://github.com/8aus1R/database-competition-projects">数据库竞赛</a>
+  &nbsp;·&nbsp;
   <a href="https://space.bilibili.com/68534484">Bilibili</a>
   &nbsp;·&nbsp;
   <a href="https://www.douyin.com/user/MS4wLjABAAAAfMMMAMkXDWRNCu_KtJq6urPe5G3LRhyK-oEYmwGsy9Q">Douyin</a>
@@ -34,9 +36,11 @@
 
 我没有拿过算法奖，大三了也没机会再去打 ACM，还是会觉得遗憾。不过这些笔记和代码是我这两年做题留下的东西，我想把它们留着。考研期间刷题会少一些，等考完还会回来继续写。
 
-### 数据库
+### [数据库系统竞赛与学习记录](https://github.com/8aus1R/database-competition-projects)
 
-目前在复习 SQL、索引和事务，边看边做笔记。数据库笔记还在电脑里，整理好之后再上传。
+我把之前分散在电脑里的数据库资料整理进了仓库：RMDB 的几个代码副本，存储管理、B+ 树、查询执行与优化的笔记和结构图，还有 OceanBase MiniOB 的实现心得。MiniOB 部分目前是复盘和图，没有单独上传源码。
+
+比赛也让我看见自己在理解整体框架和动手实现上的不足。把这些资料留下来，是想以后再回头看时，能看到自己当时是怎样一点点把存储、索引和 SQL 执行流程串起来的。
 
 ---
 
@@ -62,6 +66,12 @@
 - **模型与 MCP 扩展**：将模型服务与 Agent 核心分开，并通过 MCP 发现外部工具，方便按需要扩展能力。
 
 项目仍在持续迭代。代码、使用方法和完整功能列表见 **[MewCode 仓库 →](https://github.com/8aus1R/MewCode)**。
+
+### [数据库系统竞赛学习与实践](https://github.com/8aus1R/database-competition-projects)
+
+**内容：** 以 RMDB 竞赛框架为基础保存的代码副本，围绕存储、索引、查询处理与优化整理的笔记和结构图，以及 OceanBase MiniOB 的参赛复盘。
+
+**目前的边界：** 这是学习和比赛过程的归档；MiniOB 源码没有放进仓库，RMDB 的不同目录也没有被整理成一个统一构建的最终版本。详情见 **[仓库 README →](https://github.com/8aus1R/database-competition-projects)**。
 
 ---
 
