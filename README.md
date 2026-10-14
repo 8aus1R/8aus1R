@@ -17,6 +17,8 @@
   &nbsp;·&nbsp;
   <a href="https://github.com/8aus1R/database-competition-projects">数据库竞赛</a>
   &nbsp;·&nbsp;
+  <a href="https://github.com/8aus1R/student-grade-management-system">成绩管理系统</a>
+  &nbsp;·&nbsp;
   <a href="https://space.bilibili.com/68534484">Bilibili</a>
   &nbsp;·&nbsp;
   <a href="https://www.douyin.com/user/MS4wLjABAAAAfMMMAMkXDWRNCu_KtJq6urPe5G3LRhyK-oEYmwGsy9Q">Douyin</a>
@@ -72,6 +74,12 @@
 **内容：** 以 RMDB 竞赛框架为基础保存的代码副本，围绕存储、索引、查询处理与优化整理的笔记和结构图，以及 OceanBase MiniOB 的参赛复盘。
 
 **目前的边界：** 这是学习和比赛过程的归档；MiniOB 源码没有放进仓库，RMDB 的不同目录也没有被整理成一个统一构建的最终版本。详情见 **[仓库 README →](https://github.com/8aus1R/database-competition-projects)**。
+
+### [校园选课与成绩记录管理系统](https://github.com/8aus1R/student-grade-management-system)
+
+我做的一个数据结构课程项目。它从命令行管理选课记录：增删改查、组合筛选、排序、统计和 CSV 保存；同一组记录可以在双向链表、AVL 树、哈希表和动态数组之间切换，也做了简单的耗时对比。
+
+源码使用 `.c/.h` 文件，由 Dev-C++ 使用 `g++` 按 C++11 编译。仓库里只放源码、工程文件和构建说明，没有上传含学号与成绩的 CSV。输入校验和 CSV 解析还比较基础，适合学习与演示，不适合直接处理真实成绩。
 
 ---
 
