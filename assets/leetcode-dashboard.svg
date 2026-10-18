@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="448" viewBox="0 0 700 448" role="img" aria-labelledby="title desc">
+  <title id="title">力扣数据总览</title>
+  <desc id="desc">8aus1rchas1n0cl0ut 的力扣刷题与社区创作数据。刷题：1624题，通过率77.3%，简单610，中等805，困难209；社区：阅读30.2K，获赞1.4K，收藏299，声望L4。社区数据截至2026-10-18。</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#161a2b"/><stop offset="1" stop-color="#101a2b"/></linearGradient>
+    <linearGradient id="upper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e2031"/><stop offset="1" stop-color="#1a2032"/></linearGradient>
+    <linearGradient id="lower" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#152c45"/><stop offset="1" stop-color="#10243a"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4dc9ed"/><stop offset="1" stop-color="#8385fa"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="698" height="446" rx="17" fill="url(#background)" stroke="#37445d"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','Microsoft YaHei',sans-serif">
+    <rect x="29" y="27" width="5" height="29" rx="2.5" fill="url(#accent)"/>
+    <text x="47" y="49" font-size="24" font-weight="700" fill="#ebf4ff">力扣 · 数据总览</text>
+    <text x="47" y="72" font-size="12" fill="#8fa8c7">LeetCode CN  /  8aus1rchas1n0cl0ut</text>
+    <rect x="24" y="94" width="652" height="183" rx="13" fill="url(#upper)" stroke="#30354b"/>
+    <text x="45" y="122" font-size="17" font-weight="700" fill="#84adff">刷题数据</text>
+    <line x1="45" y1="134" x2="654" y2="134" stroke="#34384e"/>
+    <text x="75" y="161" font-size="14" fill="#bea7ea">解决问题</text>
+    <text id="solved-total" x="75" y="206" font-size="41" font-weight="700" fill="#34d6c4">1624</text>
+    <line x1="348" y1="145" x2="348" y2="215" stroke="#3b4057"/>
+    <text x="423" y="161" font-size="14" fill="#bea7ea">通过率</text>
+    <text id="pass-rate" x="423" y="206" font-size="41" font-weight="700" fill="#34d6c4">77.3%</text>
+    <line x1="45" y1="217" x2="654" y2="217" stroke="#34384e"/>
+    <rect x="49" y="230" width="184" height="33" rx="7" fill="#182a32"/>
+    <rect x="258" y="230" width="184" height="33" rx="7" fill="#2b292d"/>
+    <rect x="467" y="230" width="184" height="33" rx="7" fill="#2d2330"/>
+    <text x="80" y="251" font-size="15" fill="#5bdd89">简单</text>
+    <text id="solved-easy" x="160" y="251" font-size="16" font-weight="700" fill="#e6faff">610</text>
+    <text x="286" y="251" font-size="15" fill="#ffae4e">中等</text>
+    <text id="solved-medium" x="366" y="251" font-size="16" font-weight="700" fill="#e6faff">805</text>
+    <text x="494" y="251" font-size="15" fill="#fd72a7">困难</text>
+    <text id="solved-hard" x="574" y="251" font-size="16" font-weight="700" fill="#e6faff">209</text>
+    <rect x="24" y="292" width="652" height="119" rx="13" fill="url(#lower)" stroke="#31506e"/>
+    <text x="45" y="320" font-size="17" font-weight="700" fill="#84adff">社区创作数据</text>
+    <rect x="607" y="300" width="47" height="26" rx="13" fill="#39335d" stroke="#8072d7"/>
+    <text x="630.5" y="318" text-anchor="middle" font-size="13" font-weight="700" fill="#d1b0ff">L4</text>
+    <line x1="45" y1="330" x2="654" y2="330" stroke="#35516d"/>
+    <text x="47" y="351" font-size="12" fill="#a5bbd7">阅读总数</text>
+    <text x="47" y="383" font-size="27" font-weight="700" fill="#5cd9ee">30.2K</text>
+    <line x1="205" y1="340" x2="205" y2="392" stroke="#34516d"/>
+    <text x="226" y="351" font-size="12" fill="#a5bbd7">获赞</text>
+    <text x="226" y="383" font-size="27" font-weight="700" fill="#5cd9ee">1.4K</text>
+    <line x1="376" y1="340" x2="376" y2="392" stroke="#34516d"/>
+    <text x="397" y="351" font-size="12" fill="#a5bbd7">收藏</text>
+    <text x="397" y="383" font-size="27" font-weight="700" fill="#e8efff">299</text>
+    <line x1="543" y1="340" x2="543" y2="392" stroke="#34516d"/>
+    <text x="564" y="351" font-size="12" fill="#a5bbd7">声望等级</text>
+    <text x="564" y="383" font-size="27" font-weight="700" fill="#c7adff">L4</text>
+    <text x="29" y="433" font-size="11" fill="#819bb9">刷题数据定时更新  ·  社区数据截至 2026-10-18（截图，非实时）</text>
+  </g>
+</svg>
