@@ -100,3 +100,15 @@
 </a>
 
 </div>
+
+---
+
+## ✍️ 力扣社区创作数据
+
+<div align="center">
+
+<a href="https://leetcode.cn/u/8aus1rchas1n0cl0ut/">
+  <img src="./assets/leetcode-community.svg" width="495" alt="力扣社区创作数据：阅读 30.2K、获赞 1.4K、收藏 299、声望 L4（2026-10-18 截图，非实时）" />
+</a>
+
+</div>
