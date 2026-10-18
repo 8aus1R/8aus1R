@@ -91,24 +91,12 @@
 
 ---
 
-## 🧩 力扣刷题数据
+## 📊 力扣数据面板
 
 <div align="center">
 
 <a href="https://leetcode.cn/u/8aus1rchas1n0cl0ut/">
-  <img src="https://stats.justsong.cn/api/leetcode?username=8aus1rchas1n0cl0ut&amp;cn=true&amp;theme=tokyonight&amp;lang=zh-CN" width="495" alt="力扣中国站刷题统计卡片" />
-</a>
-
-</div>
-
----
-
-## ✍️ 力扣社区创作数据
-
-<div align="center">
-
-<a href="https://leetcode.cn/u/8aus1rchas1n0cl0ut/">
-  <img src="./assets/leetcode-community.svg" width="495" alt="力扣社区创作数据：阅读 30.2K、获赞 1.4K、收藏 299、声望 L4（2026-10-18 截图，非实时）" />
+  <img src="./assets/leetcode-dashboard.svg" width="700" alt="力扣数据面板：1624 道题，通过率 77.3%，社区阅读 30.2K、点赞 1.4K、收藏 299（2026-10-18 快照）" />
 </a>
 
 </div>
