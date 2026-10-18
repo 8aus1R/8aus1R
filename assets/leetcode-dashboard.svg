@@ -46,6 +46,6 @@
     <line x1="543" y1="340" x2="543" y2="392" stroke="#34516d"/>
     <text x="564" y="351" font-size="12" fill="#a5bbd7">声望等级</text>
     <text x="564" y="383" font-size="27" font-weight="700" fill="#c7adff">L4</text>
-    <text x="29" y="433" font-size="11" fill="#819bb9">刷题数据定时更新  ·  社区数据截至 2026-10-18（截图，非实时）</text>
+    <text x="29" y="433" font-size="11" fill="#819bb9">数据来自 2026-10-18 截图  ·  当前合并卡片为静态快照</text>
   </g>
 </svg>
