@@ -89,3 +89,14 @@
 
 </div>
 
+---
+
+## 🧩 力扣刷题数据
+
+<div align="center">
+
+<a href="https://leetcode.cn/u/8aus1rchas1n0cl0ut/">
+  <img src="https://stats.justsong.cn/api/leetcode?username=8aus1rchas1n0cl0ut&amp;cn=true&amp;theme=tokyonight&amp;lang=zh-CN" width="495" alt="力扣中国站刷题统计卡片" />
+</a>
+
+</div>
