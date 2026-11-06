@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="246" viewBox="0 0 350 246" role="img" aria-labelledby="title desc">
+<title id="title">课程材料工作流</title><desc id="desc">Codex Skill · 整理、核查与交付验证</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#2c304a"/><stop offset="1" stop-color="#0f1926"/></linearGradient><radialGradient id="halo"><stop stop-color="#b5b4e2" stop-opacity=".22"/><stop offset="1" stop-color="#b5b4e2" stop-opacity="0"/></radialGradient><clipPath id="clip"><rect x=".5" y=".5" width="349" height="245" rx="18"/></clipPath></defs>
+<g clip-path="url(#clip)"><rect width="350" height="246" fill="url(#bg)"/><ellipse cx="242" cy="45" rx="170" ry="150" fill="url(#halo)"/>
+<path d="M20 154Q80 107 175 125T330 68" fill="none" stroke="#b0b4dc" stroke-opacity=".14" stroke-width="35"/>
+<g transform="rotate(-12 113 100)"><rect x="69" y="37" width="93" height="117" rx="8" fill="#28394e" stroke="#5b718e"/><path d="M86 63H141M86 78H132M86 93H142M86 108H121" stroke="#8c9eb8" stroke-width="3" stroke-linecap="round"/></g>
+<rect x="128" y="26" width="103" height="130" rx="9" fill="#34465e" stroke="#a0a9ce" stroke-width="1.5"/>
+<path d="M149 53H209M149 69H197" stroke="#c4cbe1" stroke-width="3" stroke-linecap="round"/>
+<g fill="none" stroke="#b5c3d9" stroke-width="1.5"><rect x="149" y="88" width="61" height="45" rx="3"/><path d="M149 103H210M149 118H210M169 88V133M189 88V133"/></g>
+<circle cx="254" cy="119" r="34" fill="#344f68" stroke="#c1d0e9" stroke-width="1.8"/><path d="M238 119L250 131L272 106" fill="none" stroke="#cfebf4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g font-family="'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif"><text x="25" y="197" font-size="25" font-weight="700" fill="#f0f6ff">课程材料工作流</text><text x="25" y="224" font-size="14.5" fill="#b9cbdc">Codex Skill · 整理、核查与交付验证</text></g></g><rect x=".5" y=".5" width="349" height="245" rx="18" fill="none" stroke="#31465c"/>
+</svg>
