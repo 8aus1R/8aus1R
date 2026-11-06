@@ -5,10 +5,11 @@ import { fetchGithubContributions,normalizeGithub,renderGithubReadme } from './g
 import { renderGithubCard } from './github-card.mjs';
 
 export async function refreshGithub({root=resolve(dirname(fileURLToPath(import.meta.url)),'..'),load=fetchGithubContributions,now=new Date()}={}) {
-  const [readme,data]=await Promise.all([readFile(join(root,'README.md'),'utf8'),load({now})]);
-  const snapshot=normalizeGithub(data,now);
+  const [readme,html]=await Promise.all([readFile(join(root,'README.md'),'utf8'),load({now})]);
+  const snapshot=normalizeGithub(html,now);
   const svg=renderGithubCard(snapshot);
   const nextReadme=renderGithubReadme(readme,snapshot,svg);
+  // Native HTML remains in memory only. Publish validated numeric counts, not page content.
   // Nothing is written until the complete calendar, card and README have passed validation.
   await mkdir(join(root,'assets'),{recursive:true});await mkdir(join(root,'data'),{recursive:true});
   await writeFile(join(root,'assets/github-contributions.svg'),svg);

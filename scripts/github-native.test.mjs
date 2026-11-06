@@ -1,0 +1,109 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { readFile,writeFile,mkdir,mkdtemp,rm,readdir } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join,dirname,basename,resolve } from 'node:path';
+import { normalizeGithub,fetchGithubContributions,renderGithubReadme } from './github-contributions.mjs';
+import { refreshGithub } from './update-github.mjs';
+
+const now=new Date('2026-11-06T08:00:00Z');
+const endpoint='https://github.com/users/8aus1R/contributions';
+const monthNames=['January','February','March','April','May','June','July','August','September','October','November','December'];
+function fixture({zero=false}={}) {
+  const start=Date.parse('2025-11-02T00:00:00Z');
+  const days=Array.from({length:370},(_,i)=>{
+    const d=new Date(start+i*86400000),count=!zero&&[0,1,2,367,368,369].includes(i)?1:0;
+    const n=d.getUTCDate(),suffix=n%100>=11&&n%100<=13?'th':({1:'st',2:'nd',3:'rd'}[n%10]??'th');
+    return `<td class="ContributionCalendar-day" data-date="${d.toISOString().slice(0,10)}" id="day-${i}" data-level="${count?1:0}"></td><tool-tip for="day-${i}">${count?'1 contribution':'No contributions'} on ${monthNames[d.getUTCMonth()]} ${n}${suffix}.</tool-tip>`;
+  });
+  return `<h2 id="js-contribution-activity-description">\n ${zero?0:6}\n contributions in the last year\n</h2><div data-url="/8aus1R" data-graph-url="/users/8aus1R/contributions" data-from="2025-11-02 00:00:00 UTC" data-to="2026-11-06 23:59:59 UTC">${days.reverse().join('\n')}</div>`;
+}
+
+test('native calendar keeps its full window and derives all metrics from actual date cells',()=>{
+  const s=normalizeGithub(fixture(),now);
+  assert.deepEqual(s.range,{from:'2025-11-02',to:'2026-11-06',timezone:'UTC'});
+  assert.equal(s.source,endpoint);assert.equal(s.days.length,370);
+  assert.equal(s.total_contributions,6);assert.equal(s.active_days,6);
+  assert.equal(s.longest_streak,3);assert.equal(s.recent_30_days,3);
+  assert.equal(s.days[0].date,'2025-11-02');assert.equal(s.days[0].count,1);
+  assert.equal(s.days.at(-1).weekday,5);
+});
+
+test('native zero year and Shanghai next-day refresh are valid',()=>{
+  const s=normalizeGithub(fixture({zero:true}),new Date('2026-11-06T16:00:00Z'));
+  assert.equal(s.total_contributions,0);assert.equal(s.longest_streak,0);
+  assert.equal(s.date,'2026-11-07');assert.equal(s.range.to,'2026-11-06');
+});
+
+test('native DOM account, total, date bounds, cells and tooltips fail closed',()=>{
+  const html=fixture();
+  const invalid=[
+    html.replace('data-url="/8aus1R"','data-url="/another-user"'),
+    html.replace('6\n contributions','7\n contributions'),
+    html.replace('data-to="2026-11-06 23:59:59 UTC"','data-to="2026-11-05 23:59:59 UTC"'),
+    html.replace('data-from="2025-11-02 00:00:00 UTC"','data-from="2025-11-03 00:00:00 UTC"'),
+    html.replace(/<td[^>]*id="day-1"[^>]*><\/td>/,''),
+    html.replace('data-date="2025-11-03"','data-date="2025-11-02"'),
+    html.replace('id="day-1"','id="day-0"'),
+    html.replace(/<tool-tip for="day-0">.*?<\/tool-tip>/,''),
+    html.replace('1 contribution on November 2nd.','1 contribution on December 2nd.'),
+    html.replace('1 contribution on November 2nd.','-1 contributions on November 2nd.'),
+    html.replace('for="day-0"','for="wrong-id"'),
+    html+'<tool-tip for="day-0">1 contribution on November 2nd.</tool-tip>',
+    html.replace('id="day-0" data-level="1"','id="day-0" data-level="0"'),
+    html.replace('1 contribution on November 2nd.','9007199254740992 contributions on November 2nd.'),
+    html+'<h2 id="js-contribution-activity-description">6 contributions in the last year</h2>',
+  ];
+  for(const [i,value] of invalid.entries()) assert.throws(()=>normalizeGithub(value,now),`invalid fixture ${i}`);
+});
+
+test('public native fetch sends no credentials or token and rejects redirected/non-HTML/error responses',async()=>{
+  let calls=0;
+  const html=await fetchGithubContributions({attempts:1,fetchImpl:async(url,options)=>{
+    calls++;assert.equal(url,endpoint);assert.equal(options.method,'GET');
+    assert.equal(options.credentials,'omit');assert.equal(options.redirect,'error');
+    assert.ok(!('Authorization' in options.headers)&&!('Cookie' in options.headers));
+    assert.match(options.headers['Accept-Language'],/^en/);
+    return {ok:true,status:200,headers:new Headers({'content-type':'text/html; charset=utf-8'}),text:async()=>fixture()};
+  }});
+  assert.equal(calls,1);assert.equal(normalizeGithub(html,now).total_contributions,6);
+  for(const response of [
+    {ok:false,status:503},
+    {ok:true,status:200,headers:new Headers({'content-type':'application/json'}),text:async()=>'{"error":"not HTML"}'},
+  ]) await assert.rejects(fetchGithubContributions({attempts:1,fetchImpl:async()=>response}));
+});
+
+test('README uses the actual native range and only replaces its bounded section',()=>{
+  const s=normalizeGithub(fixture(),now);
+  const readme='Header\n<!-- GITHUB:START -->old<!-- GITHUB:END -->\n<!-- LEETCODE:START -->same<!-- LEETCODE:END -->';
+  const next=renderGithubReadme(readme,s,'<svg/>');
+  assert.ok(next.includes('2025-11-02')&&next.includes('2026-11-06'));
+  assert.ok(!next.includes('近365天'));
+  assert.equal(next.split('<!-- GITHUB:START -->')[0],'Header\n');
+  assert.equal(next.split('<!-- GITHUB:END -->')[1],readme.split('<!-- GITHUB:END -->')[1]);
+});
+
+test('native failures preserve files; successful refresh publishes only normalized data and its card',async()=>{
+  const root=await mkdtemp(join(tmpdir(),'github-native-'));
+  try {
+    await mkdir(join(root,'assets'));await mkdir(join(root,'data'));
+    const readme='<!-- GITHUB:START -->old<!-- GITHUB:END -->';
+    await writeFile(join(root,'README.md'),readme);await writeFile(join(root,'assets/github-contributions.svg'),'old SVG');await writeFile(join(root,'data/github-contributions.json'),'old JSON');
+    for(const load of [async()=>{throw Error('offline');},async()=>fixture().replace('6\n contributions','99\n contributions')]) {
+      await assert.rejects(refreshGithub({root,now,load}));
+      assert.equal(await readFile(join(root,'README.md'),'utf8'),readme);
+      assert.equal(await readFile(join(root,'assets/github-contributions.svg'),'utf8'),'old SVG');
+      assert.equal(await readFile(join(root,'data/github-contributions.json'),'utf8'),'old JSON');
+    }
+    const result=await refreshGithub({root,now,load:async()=>fixture()});
+    assert.equal(result.total_contributions,6);assert.equal(result.days.length,370);
+    const published=await readFile(join(root,'data/github-contributions.json'),'utf8');
+    assert.equal(JSON.parse(published).source,endpoint);assert.ok(!published.includes('<td'));
+    assert.deepEqual((await readdir(root)).sort(),['README.md','assets','data']);
+    assert.deepEqual(await readdir(join(root,'assets')),['github-contributions.svg']);
+    assert.deepEqual(await readdir(join(root,'data')),['github-contributions.json']);
+  } finally {
+    assert.equal(dirname(resolve(root)),resolve(tmpdir()));assert.ok(basename(root).startsWith('github-native-'));
+    await rm(root,{recursive:true,force:true});
+  }
+});

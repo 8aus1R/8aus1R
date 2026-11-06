@@ -78,11 +78,9 @@ jobs:
           node-version: '24'
 
       - name: Test contribution card
-        run: node --test scripts/github.test.mjs
+        run: node --test scripts/github.test.mjs scripts/github-native.test.mjs scripts/github-renderer.test.mjs
 
       - name: Refresh GitHub snapshot
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/update-github.mjs
 
       - name: Commit changed contribution card
