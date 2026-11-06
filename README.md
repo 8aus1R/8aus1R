@@ -35,6 +35,16 @@
 
 <div align="center">
 
+<!-- MEWCODE-DEMO:START -->
+<h3>MewCode · 实操片段</h3>
+<p>真实本地命令输出回放</p>
+<a href="https://github.com/8aus1R/MewCode/blob/main/docs/showcase/offline-cli.md">
+  <img src="./assets/mewcode-cli-demo.webp?v=b9fe1225d8c6" width="700" alt="MewCode 真实本地命令输出回放：权限帮助、权限模式与 plan/do 模式切换；按真实转录重新编排展示节奏" />
+</a>
+<!-- MEWCODE-DEMO:END -->
+
+<br /><br />
+
 <!-- GITHUB:START -->
 <a href="https://github.com/8aus1R?tab=overview">
   <img src="./assets/github-contributions.svg?v=2c3cdc72a4da" width="700" alt="GitHub 原生日历公开可见贡献（2025-11-02至2026-11-06）：136次，活跃34天，最长连续6天，近30天102次；2026-11-06同步。" />
@@ -50,6 +60,12 @@
 
 <p><a href="https://leetcode.cn/u/8aus1rchas1n0cl0ut/"><strong>Guardian &nbsp; · &nbsp; 2555 &nbsp; · &nbsp; Top 0.35%</strong></a></p>
 <!-- LEETCODE:END -->
+
+<br /><br />
+
+<!-- AFTER-RAIN-FOOTER:START -->
+<img src="./assets/after-rain-footer.webp?v=4e2d6d7678ac" width="700" alt="雨后楼顶：银灰小猫戴着耳机轻轻点头、眨眼摆尾，音箱灯点缓慢呼吸" />
+<!-- AFTER-RAIN-FOOTER:END -->
 
 </div>
 
