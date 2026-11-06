@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="230" viewBox="0 0 680 230" role="img" aria-labelledby="title desc">
+<title id="title">LeetCode · 长期积累</title>
+<desc id="desc">2026-10-18 静态快照：已解 1624 题，其中困难 209 题；社区阅读 30.2K，获赞 1.4K。</desc>
+<rect x="1" y="1" width="678" height="228" rx="16" fill="#111e30" stroke="#2d415a"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif">
+<text x="28" y="37" font-size="16" font-weight="700" letter-spacing="2" fill="#8fc4ee">LEETCODE / 8aus1R</text>
+<text x="652" y="37" text-anchor="end" font-size="14" fill="#a9bad0">2026-10-18 · SNAPSHOT</text>
+<path d="M28 53H652 M340 75V205 M28 134H652" stroke="#2d415a" fill="none"/>
+<text x="28" y="91" font-size="18" fill="#a9bad0">已解题目</text>
+<text x="308" y="110" text-anchor="end" font-size="36" font-weight="700" fill="#edf4fc">1,624</text>
+<text x="372" y="91" font-size="18" fill="#a9bad0">其中困难题</text>
+<text x="652" y="110" text-anchor="end" font-size="36" font-weight="700" fill="#edf4fc">209</text>
+<text x="28" y="171" font-size="18" fill="#a9bad0">社区阅读</text>
+<text x="308" y="190" text-anchor="end" font-size="36" font-weight="700" fill="#edf4fc">30.2K</text>
+<text x="372" y="171" font-size="18" fill="#a9bad0">社区获赞</text>
+<text x="652" y="190" text-anchor="end" font-size="36" font-weight="700" fill="#edf4fc">1.4K</text>
+</g>
+</svg>

@@ -1,102 +1,89 @@
 <div align="center">
 
 <a href="https://music.apple.com/cn/album/%E5%9C%A8%E9%9B%A8%E5%90%8E%E9%86%92%E6%9D%A5/1845141403">
-  <img src="./assets/after-rain-wide.png" width="100%" alt="以艾志恒 Asen《在雨后醒来》封面为基础扩展的宽幅画面" />
+  <img src="./assets/after-rain-wide.png" width="620" alt="艾志恒 Asen《在雨后醒来》封面延展画面：蓝天与楼宇" />
 </a>
 
-<h1>zbz</h1>
+<h1>Hi, I'm zbz.</h1>
 
-<p><strong>计算机科学与技术专业 · 备考 11408</strong></p>
+<p><strong>计算机科学与技术本科生 · 算法 / 数据库 / AI 工具</strong></p>
 
-<p>算法与数据结构 / 数据库 / AI Agent</p>
+<p>正在构建 MewCode，也在整理大学期间的算法笔记与数据库实践。</p>
 
 <p>
-  <a href="https://github.com/8aus1R/MewCode">MewCode</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/8aus1R/algorithms-and-data-structures">算法与数据结构</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/8aus1R/database-competition-projects">数据库竞赛</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/8aus1R/student-grade-management-system">成绩管理系统</a>
-  &nbsp;·&nbsp;
-  <a href="https://space.bilibili.com/68534484">Bilibili</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.douyin.com/user/MS4wLjABAAAAfMMMAMkXDWRNCu_KtJq6urPe5G3LRhyK-oEYmwGsy9Q">Douyin</a>
+  <a href="https://github.com/8aus1R/MewCode"><strong>MewCode</strong></a>
+  &nbsp; / &nbsp;
+  <a href="https://github.com/8aus1R/algorithms-and-data-structures">算法笔记</a>
+  &nbsp; / &nbsp;
+  <a href="https://leetcode.cn/u/8aus1rchas1n0cl0ut/">LeetCode</a>
 </p>
 
 </div>
 
----
+## Selected Projects · 代表项目
 
-## 现在在做
+### [MewCode](https://github.com/8aus1R/MewCode)
+**Python 命令行 AI Agent**
 
-我是计算机科学与技术专业的大三学生，正在准备 11408。平时复习数据库，也在继续做 MewCode。
+把多轮对话、工具调用和执行结果接成完整流程，探索权限控制、上下文管理与持久化记忆。项目仍在持续迭代。
+
+`Python` · `Agent Loop` · `MCP`  
+[源码与使用方法](https://github.com/8aus1R/MewCode) · [架构概览](https://github.com/8aus1R/MewCode/blob/main/docs/showcase/offline-cli.md#架构概览) · [本地命令实录](https://github.com/8aus1R/MewCode/blob/main/docs/showcase/offline-cli.md)
 
 ### [算法与数据结构](https://github.com/8aus1R/algorithms-and-data-structures)
+**两年刷题留下的笔记、题解与代码**
 
-高三暑假第一次知道力扣，大一、大二一直在刷题。这个仓库里放了那时候写的笔记、题解和练习代码，有基础算法、动态规划、图论和数据结构，也有一些比赛代码。
+从基础算法、树与图，到回溯和动态规划，记录解题思路、实现过程与复盘。整理了主题导航，也保留了学习中的疑问。
 
-我没有拿过算法奖，大三了也没机会再去打 ACM，还是会觉得遗憾。不过这些笔记和代码是我这两年做题留下的东西，我想把它们留着。考研期间刷题会少一些，等考完还会回来继续写。
+`C++` · `Data Structures` · `Problem Solving`  
+[按主题阅读](https://github.com/8aus1R/algorithms-and-data-structures#按主题阅读) · [精选笔记 ↓](#selected-notes--精选笔记)
 
-### [数据库系统竞赛与学习记录](https://github.com/8aus1R/database-competition-projects)
+### [数据库系统竞赛实践](https://github.com/8aus1R/database-competition-projects)
+**从存储、索引到查询执行**
 
-我把之前分散在电脑里的数据库资料整理进了仓库：RMDB 的几个代码副本，存储管理、B+ 树、查询执行与优化的笔记和结构图，还有 OceanBase MiniOB 的实现心得。MiniOB 部分目前是复盘和图，没有单独上传源码。
+围绕 RMDB 竞赛框架保存代码与学习笔记，整理 B+ 树、查询处理和优化的阅读路线，并记录 MiniOB 实践心得。
 
-比赛也让我看见自己在理解整体框架和动手实现上的不足。把这些资料留下来，是想以后再回头看时，能看到自己当时是怎样一点点把存储、索引和 SQL 执行流程串起来的。
+`C++` · `RMDB` · `Database Internals`  
+[仓库与来源说明](https://github.com/8aus1R/database-competition-projects) · [数据库学习路线](./docs/database-reading-map.md)
 
----
+### [Engineering Accreditation Skill](https://github.com/8aus1R/engineering-accreditation-skill)
+**课程材料整理与核查工作流**
 
-## 主要项目
+把成绩表核查、文档处理与交付验证中的步骤整理成可复用 Skill，配套辅助脚本和虚构示例。
 
-### 🐱 [MewCode](https://github.com/8aus1R/MewCode) — 命令行 AI 助手
+`Python` · `Skill` · `Document Verification`  
+[使用说明与示例](https://github.com/8aus1R/engineering-accreditation-skill)
 
-**技术栈：** Python、MCP、OpenAI / Anthropic API、YAML
+<details>
+<summary>其他实践：数据结构课程项目与 STM32</summary>
 
-**项目介绍：** 从零构建的 Python 命令行 Agent。它支持多轮对话和流式输出，让模型在 Agent Loop 中调用工具、读取执行结果并继续处理任务；项目同时关注上下文管理、持久化记忆和工具执行的权限边界。
+- [校园选课与成绩记录管理系统](https://github.com/8aus1R/student-grade-management-system)：通过命令行管理记录，在链表、AVL 树、哈希表和动态数组之间切换，使用模拟数据做学习演示。
+- [STM32 自动浇花项目](https://github.com/8aus1R/STM32-flower)：传感器监测、水泵控制与 MQTT 通信的软硬件实践。
 
-**个人职责：**
+</details>
 
-- 搭建模型接入、Agent 调度、工具注册、上下文管理和权限控制等模块，让对话、工具调用与结果回传形成完整流程。
-- 实现文件读取、写入、编辑、搜索和命令执行工具，并加入 `/plan` 只读规划与 `/do` 显式执行流程。
-- 支持 OpenAI、Anthropic Claude、OpenAI-compatible API 和 Qwen / DashScope，并接入 MCP 工具发现。
+## Selected Notes · 精选笔记
 
-**技术亮点：**
+- [前缀和 + 哈希表](https://github.com/8aus1R/algorithms-and-data-structures/blob/main/%E5%9F%BA%E7%A1%80%E7%AE%97%E6%B3%95/%E5%89%8D%E7%BC%80%E5%92%8C%2B%E5%93%88%E5%B8%8C%E8%A1%A8/%E5%89%8D%E7%BC%80%E5%92%8C%2B%E5%93%88%E5%B8%8C%E8%A1%A8.md) — 从「和为 K 的子数组」理解在线维护与计数。
+- [从记忆化搜索到递推](https://github.com/8aus1R/algorithms-and-data-structures/blob/main/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/%E8%AE%B0%E5%BF%86%E5%8C%96%E6%90%9C%E7%B4%A2/%E8%AE%B0%E5%BF%86%E5%8C%96%E6%90%9C%E7%B4%A2.md) — 用打家劫舍串起递归、记忆化、递推与空间优化。
+- [统计特殊三元组](https://github.com/8aus1R/algorithms-and-data-structures/blob/main/%E7%BB%8F%E5%85%B8%E9%A2%98%E9%A2%98%E8%A7%A3/%E5%BC%A0%E5%AE%9D%E6%B3%BD-%E5%8A%9B%E6%89%A3%E9%A2%98%E8%A7%A3-3583.%E7%BB%9F%E8%AE%A1%E7%89%B9%E6%AE%8A%E4%B8%89%E5%85%83%E7%BB%84%20%2041.0%25%20%E4%B8%AD%E7%AD%89.md) — 从暴力枚举到前后缀计数。
 
-- **Agent Loop 与工具调用**：支持模型连续调用工具，使用统一的工具注册机制和结构化结果；相邻只读工具调用可并发执行，同时保持结果顺序。
-- **上下文与记忆**：支持上下文压缩、会话归档和持久化项目记忆，让长对话与项目资料可以持续使用。
-- **五层权限控制**：通过命令黑名单、工作区沙箱、YAML 规则、权限模式和交互确认限制高风险操作，并设置工具超时与 Agent 迭代上限。
-- **模型与 MCP 扩展**：将模型服务与 Agent 核心分开，并通过 MCP 发现外部工具，方便按需要扩展能力。
+## Currently · 近况
 
-项目仍在持续迭代。代码、使用方法和完整功能列表见 **[MewCode 仓库 →](https://github.com/8aus1R/MewCode)**。
+大三，正在准备 11408。复习之余继续迭代 MewCode，整理算法与数据库笔记。考研期间刷题会少一些，但还会继续写下去。
 
-### [数据库系统竞赛学习与实践](https://github.com/8aus1R/database-competition-projects)
-
-**内容：** 以 RMDB 竞赛框架为基础保存的代码副本，围绕存储、索引、查询处理与优化整理的笔记和结构图，以及 OceanBase MiniOB 的参赛复盘。
-
-**目前的边界：** 这是学习和比赛过程的归档；MiniOB 源码没有放进仓库，RMDB 的不同目录也没有被整理成一个统一构建的最终版本。详情见 **[仓库 README →](https://github.com/8aus1R/database-competition-projects)**。
-
-### [校园选课与成绩记录管理系统](https://github.com/8aus1R/student-grade-management-system)
-
-我做的一个数据结构课程项目。它从命令行管理选课记录：增删改查、组合筛选、排序、统计和 CSV 保存；同一组记录可以在双向链表、AVL 树、哈希表和动态数组之间切换，也做了简单的耗时对比。
-
-源码使用 `.c/.h` 文件，由 Dev-C++ 使用 `g++` 按 C++11 编译。仓库里只放源码、工程文件和构建说明，没有上传含学号与成绩的 CSV。输入校验和 CSV 解析还比较基础，适合学习与演示，不适合直接处理真实成绩。
-
----
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=8aus1R&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true" alt="GitHub 统计数据" />
-
-</div>
-
----
-
-## 📊 力扣数据面板
-
-<div align="center">
+## LeetCode · 长期积累
 
 <a href="https://leetcode.cn/u/8aus1rchas1n0cl0ut/">
-  <img src="./assets/leetcode-dashboard.svg" width="700" alt="力扣数据面板：1624 道题，通过率 77.3%，社区阅读 30.2K、点赞 1.4K、收藏 299（2026-10-18 快照）" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/leetcode-compact-dark.svg" />
+    <img src="./assets/leetcode-compact-light.svg" width="680" alt="2026-10-18 静态快照：已解 1624 题，其中困难 209 题；社区阅读 30.2K，获赞 1.4K。" />
+  </picture>
 </a>
 
-</div>
+数据截至 **2026-10-18**，为静态快照。[查看当前力扣主页 →](https://leetcode.cn/u/8aus1rchas1n0cl0ut/)
+
+---
+
+[Bilibili](https://space.bilibili.com/68534484) · [Douyin](https://www.douyin.com/user/MS4wLjABAAAAfMMMAMkXDWRNCu_KtJq6urPe5G3LRhyK-oEYmwGsy9Q) · [GitHub](https://github.com/8aus1R)
+
