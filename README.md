@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://music.apple.com/cn/album/%E5%9C%A8%E9%9B%A8%E5%90%8E%E9%86%92%E6%9D%A5/1845141403">
-  <img src="./assets/after-rain-wide.png" width="100%" alt="艾志恒 Asen《在雨后醒来》封面延展：蓝天、楼宇与屋顶上的人" />
+  <img src="./assets/after-rain-hiphop.webp?v=f8781f091a97" width="100%" alt="8aus1R · 雨后醒来：铬银立体字、蓝天楼宇唱片封套与缓缓转动的 CD，12 秒循环动态横幅" />
 </a>
 
 <h1>zbz</h1>
