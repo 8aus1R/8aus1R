@@ -76,12 +76,12 @@
 
 <a href="https://leetcode.cn/u/8aus1rchas1n0cl0ut/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/leetcode-compact-dark.svg" />
-    <img src="./assets/leetcode-compact-light.svg" width="680" alt="2026-10-18 静态快照：已解 1624 题，其中困难 209 题；社区阅读 30.2K，获赞 1.4K。" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/leetcode-2026-11-06-dark.svg" />
+    <img src="./assets/leetcode-2026-11-06-light.svg" width="680" alt="2026-11-06 静态快照：已解 1629 题，其中困难 210 题；竞赛分数 2555，Guardian，Top 0.35%；社区阅读 30.6K，获赞 1.4K。" />
   </picture>
 </a>
 
-数据截至 **2026-10-18**，为静态快照。[查看当前力扣主页 →](https://leetcode.cn/u/8aus1rchas1n0cl0ut/)
+数据截至 **2026-11-06**，为静态快照。[查看当前力扣主页 →](https://leetcode.cn/u/8aus1rchas1n0cl0ut/)
 
 ---
 

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="310" viewBox="0 0 680 310" role="img" aria-labelledby="title desc">
+<title id="title">LeetCode · Guardian</title>
+<desc id="desc">2026-11-06 静态快照：已解 1629 题，其中困难 210 题；竞赛分数 2555，Guardian，Top 0.35%；社区阅读 30.6K，获赞 1.4K。K 数值为页面显示值。</desc>
+<rect x="1" y="1" width="678" height="308" rx="16" fill="#111e30" stroke="#2d415a"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif">
+<text x="28" y="37" font-size="16" font-weight="700" letter-spacing="1.5" fill="#8fc4ee">LEETCODE / 8aus1R</text>
+<rect x="278" y="18" width="102" height="26" rx="13" fill="#1b324d"/>
+<text x="329" y="36" text-anchor="middle" font-size="14" font-weight="600" fill="#8fc4ee">Guardian</text>
+<text x="652" y="37" text-anchor="end" font-size="15" fill="#a9bad0">2026-11-06 快照</text>
+<path d="M28 53H652 M340 75V285 M28 134H652 M28 214H652" stroke="#2d415a" fill="none"/>
+<text x="28" y="91" font-size="20" fill="#a9bad0">已解题目</text>
+<text x="308" y="112" text-anchor="end" font-size="38" font-weight="700" fill="#edf4fc">1,629</text>
+<text x="372" y="91" font-size="20" fill="#a9bad0">其中困难题</text>
+<text x="652" y="112" text-anchor="end" font-size="38" font-weight="700" fill="#edf4fc">210</text>
+<text x="28" y="171" font-size="20" fill="#a9bad0">竞赛分数</text>
+<text x="308" y="192" text-anchor="end" font-size="38" font-weight="700" fill="#edf4fc">2,555</text>
+<text x="372" y="171" font-size="20" fill="#a9bad0">竞赛排名</text>
+<text x="652" y="192" text-anchor="end" font-size="34" font-weight="700" fill="#edf4fc">Top 0.35%</text>
+<text x="28" y="251" font-size="20" fill="#a9bad0">社区阅读</text>
+<text x="308" y="272" text-anchor="end" font-size="38" font-weight="700" fill="#edf4fc">30.6K</text>
+<text x="372" y="251" font-size="20" fill="#a9bad0">社区获赞</text>
+<text x="652" y="272" text-anchor="end" font-size="38" font-weight="700" fill="#edf4fc">1.4K</text>
+</g>
+</svg>
+

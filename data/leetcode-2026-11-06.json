@@ -1,0 +1,28 @@
+{
+  "source": "https://leetcode.cn/u/8aus1rchas1n0cl0ut/",
+  "date": "2026-11-06",
+  "note": "页面中带 K 的社区指标保留页面显示值，不转换为精确计数。此文件为静态快照。",
+  "solved": {
+    "total": 1629,
+    "easy": 611,
+    "medium": 808,
+    "hard": 210
+  },
+  "acceptance_rate_percent": 77.37,
+  "community": {
+    "views_display": "30.6K",
+    "likes_display": "1.4K",
+    "favorites": 299,
+    "reputation_level": "L4"
+  },
+  "contest": {
+    "rating": 2555,
+    "tier": "Guardian",
+    "top_percent_display": "0.35%",
+    "global_rank": 1303,
+    "global_participants": 901682,
+    "china_rank": 552,
+    "china_participants": 155515
+  }
+}
+
