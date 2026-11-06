@@ -35,11 +35,13 @@
 
 <div align="center">
 
+<!-- LEETCODE:START -->
 <a href="https://leetcode.cn/u/8aus1rchas1n0cl0ut/">
   <img src="./assets/leetcode-classic-2026-11-06.svg" width="700" alt="力扣原版数据面板，2026-11-06：1629 题，简单 611、中等 808、困难 210；通过率 77.37%；阅读 30.6K、获赞 1.4K、收藏 299、声望 L4。" />
 </a>
 
 <p><a href="https://leetcode.cn/u/8aus1rchas1n0cl0ut/"><strong>Guardian &nbsp; · &nbsp; 2555 &nbsp; · &nbsp; Top 0.35%</strong></a></p>
+<!-- LEETCODE:END -->
 
 </div>
 

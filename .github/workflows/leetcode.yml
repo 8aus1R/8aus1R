@@ -1,0 +1,58 @@
+name: Refresh LeetCode card
+
+on:
+  schedule:
+    # 01:17 UTC = 09:17 Asia/Shanghai.
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/leetcode.yml'
+      - 'scripts/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: leetcode-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out main
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+
+      - name: Test updater
+        run: node --test scripts/leetcode.test.mjs
+
+      - name: Refresh public snapshot
+        run: node scripts/update-leetcode.mjs
+
+      - name: Commit changed snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- README.md assets/leetcode-live.svg data/leetcode-latest.json
+          if git diff --cached --quiet; then
+            echo "LeetCode snapshot is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update LeetCode snapshot"
+          git pull --rebase origin main
+          git push origin HEAD:main
