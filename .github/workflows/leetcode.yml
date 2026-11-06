@@ -1,4 +1,4 @@
-name: Refresh LeetCode card
+name: Refresh profile cards
 
 on:
   schedule:
@@ -54,5 +54,48 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore: update LeetCode snapshot"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+  github-contributions:
+    name: Refresh GitHub contributions
+    needs: refresh
+    # Use a clean checkout after the LeetCode job; a LeetCode failure does not
+    # prevent this independent data source from refreshing its own card.
+    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out latest main
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+
+      - name: Test contribution card
+        run: node --test scripts/github.test.mjs
+
+      - name: Refresh GitHub snapshot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-github.mjs
+
+      - name: Commit changed contribution card
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- README.md assets/github-contributions.svg data/github-contributions.json
+          if git diff --cached --quiet; then
+            echo "GitHub contribution snapshot is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update GitHub contribution card"
           git pull --rebase origin main
           git push origin HEAD:main
