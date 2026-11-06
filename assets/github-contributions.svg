@@ -1,0 +1,411 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="390" viewBox="0 0 700 390" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub · 代码足迹</title>
+  <desc id="desc">8aus1R 的公开可见 GitHub 贡献，2025-11-07 至 2026-11-06：近一年贡献 76 次，活跃 24 天，最长连续 5 天，近 30 天 42 次。按 UTC 日期绘制 365 天热力图。</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#161a2b"/><stop offset="1" stop-color="#101a2b"/></linearGradient>
+    <linearGradient id="upper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e2031"/><stop offset="1" stop-color="#1a2032"/></linearGradient>
+    <linearGradient id="lower" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#152c45"/><stop offset="1" stop-color="#10243a"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4dc9ed"/><stop offset="1" stop-color="#8385fa"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="698" height="388" rx="17" fill="url(#background)" stroke="#37445d"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans SC','Microsoft YaHei',sans-serif">
+    <rect x="29" y="27" width="5" height="29" rx="2.5" fill="url(#accent)"/>
+    <text x="47" y="49" font-size="24" font-weight="700" fill="#ebf4ff">GitHub · 代码足迹</text>
+    <text x="47" y="72" font-size="12" fill="#8fa8c7">8aus1R / 公开可见贡献</text>
+    <rect x="24" y="94" width="652" height="106" rx="13" fill="url(#upper)" stroke="#30354b"/>
+    <path d="M196 113V182 M360 113V182 M524 113V182" stroke="#3b4057" fill="none"/>
+    <text x="45" y="125" font-size="14" fill="#bea7ea">近一年贡献</text>
+    <text x="45" y="177" font-size="38" font-weight="700" fill="#34d6c4">76</text>
+    <text x="209" y="125" font-size="14" fill="#bea7ea">活跃天数</text>
+    <text x="209" y="177" font-size="38" font-weight="700" fill="#34d6c4">24</text>
+    <text x="373" y="125" font-size="14" fill="#bea7ea">最长连续天数</text>
+    <text x="373" y="177" font-size="38" font-weight="700" fill="#34d6c4">5</text>
+    <text x="537" y="125" font-size="14" fill="#bea7ea">近 30 天</text>
+    <text x="537" y="177" font-size="38" font-weight="700" fill="#34d6c4">42</text>
+    <rect x="24" y="214" width="652" height="145" rx="13" fill="url(#lower)" stroke="#31506e"/>
+    <text x="45" y="242" font-size="17" font-weight="700" fill="#84adff">过去 365 天</text>
+    <text x="652" y="242" text-anchor="end" font-size="12" fill="#8fa8c7">2025-11-07 — 2026-11-06</text>
+    <text x="45" y="292" font-size="10" fill="#8fa8c7">一</text>
+    <text x="45" y="314" font-size="10" fill="#8fa8c7">三</text>
+    <text x="45" y="336" font-size="10" fill="#8fa8c7">五</text>
+    <text x="68" y="263" font-size="10" fill="#8fa8c7">11月</text>
+    <text x="112" y="263" font-size="10" fill="#8fa8c7">12月</text>
+    <text x="156" y="263" font-size="10" fill="#8fa8c7">1月</text>
+    <text x="211" y="263" font-size="10" fill="#8fa8c7">2月</text>
+    <text x="255" y="263" font-size="10" fill="#8fa8c7">3月</text>
+    <text x="299" y="263" font-size="10" fill="#8fa8c7">4月</text>
+    <text x="343" y="263" font-size="10" fill="#8fa8c7">5月</text>
+    <text x="398" y="263" font-size="10" fill="#8fa8c7">6月</text>
+    <text x="442" y="263" font-size="10" fill="#8fa8c7">7月</text>
+    <text x="486" y="263" font-size="10" fill="#8fa8c7">8月</text>
+    <text x="541" y="263" font-size="10" fill="#8fa8c7">9月</text>
+    <text x="585" y="263" font-size="10" fill="#8fa8c7">10月</text>
+    <text x="640" y="263" font-size="10" fill="#8fa8c7">11月</text>
+    <rect x="68" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-07" data-count="0"><title>2025-11-07 · 0 次公开可见贡献</title></rect>
+    <rect x="68" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-08" data-count="0"><title>2025-11-08 · 0 次公开可见贡献</title></rect>
+    <rect x="79" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-09" data-count="0"><title>2025-11-09 · 0 次公开可见贡献</title></rect>
+    <rect x="79" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-10" data-count="0"><title>2025-11-10 · 0 次公开可见贡献</title></rect>
+    <rect x="79" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-11" data-count="0"><title>2025-11-11 · 0 次公开可见贡献</title></rect>
+    <rect x="79" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-12" data-count="0"><title>2025-11-12 · 0 次公开可见贡献</title></rect>
+    <rect x="79" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-13" data-count="0"><title>2025-11-13 · 0 次公开可见贡献</title></rect>
+    <rect x="79" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-14" data-count="0"><title>2025-11-14 · 0 次公开可见贡献</title></rect>
+    <rect x="79" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-15" data-count="0"><title>2025-11-15 · 0 次公开可见贡献</title></rect>
+    <rect x="90" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-16" data-count="0"><title>2025-11-16 · 0 次公开可见贡献</title></rect>
+    <rect x="90" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-17" data-count="0"><title>2025-11-17 · 0 次公开可见贡献</title></rect>
+    <rect x="90" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-18" data-count="0"><title>2025-11-18 · 0 次公开可见贡献</title></rect>
+    <rect x="90" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-19" data-count="0"><title>2025-11-19 · 0 次公开可见贡献</title></rect>
+    <rect x="90" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-20" data-count="0"><title>2025-11-20 · 0 次公开可见贡献</title></rect>
+    <rect x="90" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-21" data-count="0"><title>2025-11-21 · 0 次公开可见贡献</title></rect>
+    <rect x="90" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-22" data-count="0"><title>2025-11-22 · 0 次公开可见贡献</title></rect>
+    <rect x="101" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-23" data-count="0"><title>2025-11-23 · 0 次公开可见贡献</title></rect>
+    <rect x="101" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-24" data-count="0"><title>2025-11-24 · 0 次公开可见贡献</title></rect>
+    <rect x="101" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-25" data-count="0"><title>2025-11-25 · 0 次公开可见贡献</title></rect>
+    <rect x="101" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-26" data-count="0"><title>2025-11-26 · 0 次公开可见贡献</title></rect>
+    <rect x="101" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-27" data-count="0"><title>2025-11-27 · 0 次公开可见贡献</title></rect>
+    <rect x="101" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-28" data-count="0"><title>2025-11-28 · 0 次公开可见贡献</title></rect>
+    <rect x="101" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-29" data-count="0"><title>2025-11-29 · 0 次公开可见贡献</title></rect>
+    <rect x="112" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-11-30" data-count="0"><title>2025-11-30 · 0 次公开可见贡献</title></rect>
+    <rect x="112" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-01" data-count="0"><title>2025-12-01 · 0 次公开可见贡献</title></rect>
+    <rect x="112" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-02" data-count="0"><title>2025-12-02 · 0 次公开可见贡献</title></rect>
+    <rect x="112" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-03" data-count="0"><title>2025-12-03 · 0 次公开可见贡献</title></rect>
+    <rect x="112" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-04" data-count="0"><title>2025-12-04 · 0 次公开可见贡献</title></rect>
+    <rect x="112" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-05" data-count="0"><title>2025-12-05 · 0 次公开可见贡献</title></rect>
+    <rect x="112" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-06" data-count="0"><title>2025-12-06 · 0 次公开可见贡献</title></rect>
+    <rect x="123" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-07" data-count="0"><title>2025-12-07 · 0 次公开可见贡献</title></rect>
+    <rect x="123" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-08" data-count="0"><title>2025-12-08 · 0 次公开可见贡献</title></rect>
+    <rect x="123" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-09" data-count="0"><title>2025-12-09 · 0 次公开可见贡献</title></rect>
+    <rect x="123" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-10" data-count="0"><title>2025-12-10 · 0 次公开可见贡献</title></rect>
+    <rect x="123" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-11" data-count="0"><title>2025-12-11 · 0 次公开可见贡献</title></rect>
+    <rect x="123" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-12" data-count="0"><title>2025-12-12 · 0 次公开可见贡献</title></rect>
+    <rect x="123" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-13" data-count="0"><title>2025-12-13 · 0 次公开可见贡献</title></rect>
+    <rect x="134" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-14" data-count="0"><title>2025-12-14 · 0 次公开可见贡献</title></rect>
+    <rect x="134" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-15" data-count="0"><title>2025-12-15 · 0 次公开可见贡献</title></rect>
+    <rect x="134" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-16" data-count="0"><title>2025-12-16 · 0 次公开可见贡献</title></rect>
+    <rect x="134" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-17" data-count="0"><title>2025-12-17 · 0 次公开可见贡献</title></rect>
+    <rect x="134" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-18" data-count="0"><title>2025-12-18 · 0 次公开可见贡献</title></rect>
+    <rect x="134" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-19" data-count="0"><title>2025-12-19 · 0 次公开可见贡献</title></rect>
+    <rect x="134" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-20" data-count="0"><title>2025-12-20 · 0 次公开可见贡献</title></rect>
+    <rect x="145" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-21" data-count="0"><title>2025-12-21 · 0 次公开可见贡献</title></rect>
+    <rect x="145" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-22" data-count="0"><title>2025-12-22 · 0 次公开可见贡献</title></rect>
+    <rect x="145" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-23" data-count="0"><title>2025-12-23 · 0 次公开可见贡献</title></rect>
+    <rect x="145" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-24" data-count="0"><title>2025-12-24 · 0 次公开可见贡献</title></rect>
+    <rect x="145" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-25" data-count="0"><title>2025-12-25 · 0 次公开可见贡献</title></rect>
+    <rect x="145" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-26" data-count="0"><title>2025-12-26 · 0 次公开可见贡献</title></rect>
+    <rect x="145" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-27" data-count="0"><title>2025-12-27 · 0 次公开可见贡献</title></rect>
+    <rect x="156" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-28" data-count="0"><title>2025-12-28 · 0 次公开可见贡献</title></rect>
+    <rect x="156" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-29" data-count="0"><title>2025-12-29 · 0 次公开可见贡献</title></rect>
+    <rect x="156" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-30" data-count="0"><title>2025-12-30 · 0 次公开可见贡献</title></rect>
+    <rect x="156" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2025-12-31" data-count="0"><title>2025-12-31 · 0 次公开可见贡献</title></rect>
+    <rect x="156" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-01" data-count="0"><title>2026-01-01 · 0 次公开可见贡献</title></rect>
+    <rect x="156" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-02" data-count="0"><title>2026-01-02 · 0 次公开可见贡献</title></rect>
+    <rect x="156" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-03" data-count="0"><title>2026-01-03 · 0 次公开可见贡献</title></rect>
+    <rect x="167" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-04" data-count="0"><title>2026-01-04 · 0 次公开可见贡献</title></rect>
+    <rect x="167" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-05" data-count="0"><title>2026-01-05 · 0 次公开可见贡献</title></rect>
+    <rect x="167" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-06" data-count="0"><title>2026-01-06 · 0 次公开可见贡献</title></rect>
+    <rect x="167" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-07" data-count="0"><title>2026-01-07 · 0 次公开可见贡献</title></rect>
+    <rect x="167" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-08" data-count="0"><title>2026-01-08 · 0 次公开可见贡献</title></rect>
+    <rect x="167" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-09" data-count="0"><title>2026-01-09 · 0 次公开可见贡献</title></rect>
+    <rect x="167" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-10" data-count="0"><title>2026-01-10 · 0 次公开可见贡献</title></rect>
+    <rect x="178" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-11" data-count="0"><title>2026-01-11 · 0 次公开可见贡献</title></rect>
+    <rect x="178" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-12" data-count="0"><title>2026-01-12 · 0 次公开可见贡献</title></rect>
+    <rect x="178" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-13" data-count="0"><title>2026-01-13 · 0 次公开可见贡献</title></rect>
+    <rect x="178" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-14" data-count="0"><title>2026-01-14 · 0 次公开可见贡献</title></rect>
+    <rect x="178" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-15" data-count="0"><title>2026-01-15 · 0 次公开可见贡献</title></rect>
+    <rect x="178" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-16" data-count="0"><title>2026-01-16 · 0 次公开可见贡献</title></rect>
+    <rect x="178" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-17" data-count="0"><title>2026-01-17 · 0 次公开可见贡献</title></rect>
+    <rect x="189" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-18" data-count="0"><title>2026-01-18 · 0 次公开可见贡献</title></rect>
+    <rect x="189" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-19" data-count="0"><title>2026-01-19 · 0 次公开可见贡献</title></rect>
+    <rect x="189" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-20" data-count="0"><title>2026-01-20 · 0 次公开可见贡献</title></rect>
+    <rect x="189" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-21" data-count="0"><title>2026-01-21 · 0 次公开可见贡献</title></rect>
+    <rect x="189" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-22" data-count="0"><title>2026-01-22 · 0 次公开可见贡献</title></rect>
+    <rect x="189" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-23" data-count="0"><title>2026-01-23 · 0 次公开可见贡献</title></rect>
+    <rect x="189" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-24" data-count="0"><title>2026-01-24 · 0 次公开可见贡献</title></rect>
+    <rect x="200" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-25" data-count="0"><title>2026-01-25 · 0 次公开可见贡献</title></rect>
+    <rect x="200" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-26" data-count="0"><title>2026-01-26 · 0 次公开可见贡献</title></rect>
+    <rect x="200" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-27" data-count="0"><title>2026-01-27 · 0 次公开可见贡献</title></rect>
+    <rect x="200" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-28" data-count="0"><title>2026-01-28 · 0 次公开可见贡献</title></rect>
+    <rect x="200" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-29" data-count="0"><title>2026-01-29 · 0 次公开可见贡献</title></rect>
+    <rect x="200" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-30" data-count="0"><title>2026-01-30 · 0 次公开可见贡献</title></rect>
+    <rect x="200" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-01-31" data-count="0"><title>2026-01-31 · 0 次公开可见贡献</title></rect>
+    <rect x="211" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-01" data-count="0"><title>2026-02-01 · 0 次公开可见贡献</title></rect>
+    <rect x="211" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-02" data-count="0"><title>2026-02-02 · 0 次公开可见贡献</title></rect>
+    <rect x="211" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-03" data-count="0"><title>2026-02-03 · 0 次公开可见贡献</title></rect>
+    <rect x="211" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-04" data-count="0"><title>2026-02-04 · 0 次公开可见贡献</title></rect>
+    <rect x="211" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-05" data-count="0"><title>2026-02-05 · 0 次公开可见贡献</title></rect>
+    <rect x="211" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-06" data-count="0"><title>2026-02-06 · 0 次公开可见贡献</title></rect>
+    <rect x="211" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-07" data-count="0"><title>2026-02-07 · 0 次公开可见贡献</title></rect>
+    <rect x="222" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-08" data-count="0"><title>2026-02-08 · 0 次公开可见贡献</title></rect>
+    <rect x="222" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-09" data-count="0"><title>2026-02-09 · 0 次公开可见贡献</title></rect>
+    <rect x="222" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-10" data-count="0"><title>2026-02-10 · 0 次公开可见贡献</title></rect>
+    <rect x="222" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-11" data-count="0"><title>2026-02-11 · 0 次公开可见贡献</title></rect>
+    <rect x="222" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-12" data-count="0"><title>2026-02-12 · 0 次公开可见贡献</title></rect>
+    <rect x="222" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-13" data-count="0"><title>2026-02-13 · 0 次公开可见贡献</title></rect>
+    <rect x="222" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-14" data-count="0"><title>2026-02-14 · 0 次公开可见贡献</title></rect>
+    <rect x="233" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-15" data-count="0"><title>2026-02-15 · 0 次公开可见贡献</title></rect>
+    <rect x="233" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-16" data-count="0"><title>2026-02-16 · 0 次公开可见贡献</title></rect>
+    <rect x="233" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-17" data-count="0"><title>2026-02-17 · 0 次公开可见贡献</title></rect>
+    <rect x="233" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-18" data-count="0"><title>2026-02-18 · 0 次公开可见贡献</title></rect>
+    <rect x="233" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-19" data-count="0"><title>2026-02-19 · 0 次公开可见贡献</title></rect>
+    <rect x="233" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-20" data-count="0"><title>2026-02-20 · 0 次公开可见贡献</title></rect>
+    <rect x="233" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-21" data-count="0"><title>2026-02-21 · 0 次公开可见贡献</title></rect>
+    <rect x="244" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-22" data-count="0"><title>2026-02-22 · 0 次公开可见贡献</title></rect>
+    <rect x="244" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-23" data-count="0"><title>2026-02-23 · 0 次公开可见贡献</title></rect>
+    <rect x="244" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-24" data-count="0"><title>2026-02-24 · 0 次公开可见贡献</title></rect>
+    <rect x="244" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-25" data-count="0"><title>2026-02-25 · 0 次公开可见贡献</title></rect>
+    <rect x="244" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-26" data-count="0"><title>2026-02-26 · 0 次公开可见贡献</title></rect>
+    <rect x="244" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-27" data-count="0"><title>2026-02-27 · 0 次公开可见贡献</title></rect>
+    <rect x="244" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-02-28" data-count="0"><title>2026-02-28 · 0 次公开可见贡献</title></rect>
+    <rect x="255" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-01" data-count="0"><title>2026-03-01 · 0 次公开可见贡献</title></rect>
+    <rect x="255" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-02" data-count="0"><title>2026-03-02 · 0 次公开可见贡献</title></rect>
+    <rect x="255" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-03" data-count="0"><title>2026-03-03 · 0 次公开可见贡献</title></rect>
+    <rect x="255" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-04" data-count="0"><title>2026-03-04 · 0 次公开可见贡献</title></rect>
+    <rect x="255" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-05" data-count="0"><title>2026-03-05 · 0 次公开可见贡献</title></rect>
+    <rect x="255" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-06" data-count="0"><title>2026-03-06 · 0 次公开可见贡献</title></rect>
+    <rect x="255" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-07" data-count="0"><title>2026-03-07 · 0 次公开可见贡献</title></rect>
+    <rect x="266" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-08" data-count="0"><title>2026-03-08 · 0 次公开可见贡献</title></rect>
+    <rect x="266" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-09" data-count="0"><title>2026-03-09 · 0 次公开可见贡献</title></rect>
+    <rect x="266" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-10" data-count="0"><title>2026-03-10 · 0 次公开可见贡献</title></rect>
+    <rect x="266" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-11" data-count="0"><title>2026-03-11 · 0 次公开可见贡献</title></rect>
+    <rect x="266" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-12" data-count="0"><title>2026-03-12 · 0 次公开可见贡献</title></rect>
+    <rect x="266" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-13" data-count="0"><title>2026-03-13 · 0 次公开可见贡献</title></rect>
+    <rect x="266" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-14" data-count="0"><title>2026-03-14 · 0 次公开可见贡献</title></rect>
+    <rect x="277" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-15" data-count="0"><title>2026-03-15 · 0 次公开可见贡献</title></rect>
+    <rect x="277" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-16" data-count="0"><title>2026-03-16 · 0 次公开可见贡献</title></rect>
+    <rect x="277" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-17" data-count="0"><title>2026-03-17 · 0 次公开可见贡献</title></rect>
+    <rect x="277" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-18" data-count="0"><title>2026-03-18 · 0 次公开可见贡献</title></rect>
+    <rect x="277" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-19" data-count="0"><title>2026-03-19 · 0 次公开可见贡献</title></rect>
+    <rect x="277" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-20" data-count="0"><title>2026-03-20 · 0 次公开可见贡献</title></rect>
+    <rect x="277" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-21" data-count="0"><title>2026-03-21 · 0 次公开可见贡献</title></rect>
+    <rect x="288" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-22" data-count="0"><title>2026-03-22 · 0 次公开可见贡献</title></rect>
+    <rect x="288" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-23" data-count="0"><title>2026-03-23 · 0 次公开可见贡献</title></rect>
+    <rect x="288" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-24" data-count="0"><title>2026-03-24 · 0 次公开可见贡献</title></rect>
+    <rect x="288" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-25" data-count="0"><title>2026-03-25 · 0 次公开可见贡献</title></rect>
+    <rect x="288" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-26" data-count="0"><title>2026-03-26 · 0 次公开可见贡献</title></rect>
+    <rect x="288" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-27" data-count="0"><title>2026-03-27 · 0 次公开可见贡献</title></rect>
+    <rect x="288" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-28" data-count="0"><title>2026-03-28 · 0 次公开可见贡献</title></rect>
+    <rect x="299" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-29" data-count="0"><title>2026-03-29 · 0 次公开可见贡献</title></rect>
+    <rect x="299" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-30" data-count="0"><title>2026-03-30 · 0 次公开可见贡献</title></rect>
+    <rect x="299" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-03-31" data-count="0"><title>2026-03-31 · 0 次公开可见贡献</title></rect>
+    <rect x="299" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-01" data-count="0"><title>2026-04-01 · 0 次公开可见贡献</title></rect>
+    <rect x="299" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-02" data-count="0"><title>2026-04-02 · 0 次公开可见贡献</title></rect>
+    <rect x="299" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-03" data-count="0"><title>2026-04-03 · 0 次公开可见贡献</title></rect>
+    <rect x="299" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-04" data-count="0"><title>2026-04-04 · 0 次公开可见贡献</title></rect>
+    <rect x="310" y="274" width="8" height="8" rx="1.5" fill="#2b8291" data-date="2026-04-05" data-count="3"><title>2026-04-05 · 3 次公开可见贡献</title></rect>
+    <rect x="310" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-06" data-count="0"><title>2026-04-06 · 0 次公开可见贡献</title></rect>
+    <rect x="310" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-07" data-count="0"><title>2026-04-07 · 0 次公开可见贡献</title></rect>
+    <rect x="310" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-08" data-count="0"><title>2026-04-08 · 0 次公开可见贡献</title></rect>
+    <rect x="310" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-09" data-count="0"><title>2026-04-09 · 0 次公开可见贡献</title></rect>
+    <rect x="310" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-10" data-count="0"><title>2026-04-10 · 0 次公开可见贡献</title></rect>
+    <rect x="310" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-11" data-count="0"><title>2026-04-11 · 0 次公开可见贡献</title></rect>
+    <rect x="321" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-12" data-count="0"><title>2026-04-12 · 0 次公开可见贡献</title></rect>
+    <rect x="321" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-13" data-count="0"><title>2026-04-13 · 0 次公开可见贡献</title></rect>
+    <rect x="321" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-14" data-count="0"><title>2026-04-14 · 0 次公开可见贡献</title></rect>
+    <rect x="321" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-15" data-count="0"><title>2026-04-15 · 0 次公开可见贡献</title></rect>
+    <rect x="321" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-16" data-count="0"><title>2026-04-16 · 0 次公开可见贡献</title></rect>
+    <rect x="321" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-17" data-count="0"><title>2026-04-17 · 0 次公开可见贡献</title></rect>
+    <rect x="321" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-18" data-count="0"><title>2026-04-18 · 0 次公开可见贡献</title></rect>
+    <rect x="332" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-19" data-count="0"><title>2026-04-19 · 0 次公开可见贡献</title></rect>
+    <rect x="332" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-20" data-count="0"><title>2026-04-20 · 0 次公开可见贡献</title></rect>
+    <rect x="332" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-21" data-count="0"><title>2026-04-21 · 0 次公开可见贡献</title></rect>
+    <rect x="332" y="307" width="8" height="8" rx="1.5" fill="#254d65" data-date="2026-04-22" data-count="2"><title>2026-04-22 · 2 次公开可见贡献</title></rect>
+    <rect x="332" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-23" data-count="0"><title>2026-04-23 · 0 次公开可见贡献</title></rect>
+    <rect x="332" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-24" data-count="0"><title>2026-04-24 · 0 次公开可见贡献</title></rect>
+    <rect x="332" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-25" data-count="0"><title>2026-04-25 · 0 次公开可见贡献</title></rect>
+    <rect x="343" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-26" data-count="0"><title>2026-04-26 · 0 次公开可见贡献</title></rect>
+    <rect x="343" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-27" data-count="0"><title>2026-04-27 · 0 次公开可见贡献</title></rect>
+    <rect x="343" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-28" data-count="0"><title>2026-04-28 · 0 次公开可见贡献</title></rect>
+    <rect x="343" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-29" data-count="0"><title>2026-04-29 · 0 次公开可见贡献</title></rect>
+    <rect x="343" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-04-30" data-count="0"><title>2026-04-30 · 0 次公开可见贡献</title></rect>
+    <rect x="343" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-01" data-count="0"><title>2026-05-01 · 0 次公开可见贡献</title></rect>
+    <rect x="343" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-02" data-count="0"><title>2026-05-02 · 0 次公开可见贡献</title></rect>
+    <rect x="354" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-03" data-count="0"><title>2026-05-03 · 0 次公开可见贡献</title></rect>
+    <rect x="354" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-04" data-count="0"><title>2026-05-04 · 0 次公开可见贡献</title></rect>
+    <rect x="354" y="296" width="8" height="8" rx="1.5" fill="#254d65" data-date="2026-05-05" data-count="1"><title>2026-05-05 · 1 次公开可见贡献</title></rect>
+    <rect x="354" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-06" data-count="0"><title>2026-05-06 · 0 次公开可见贡献</title></rect>
+    <rect x="354" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-07" data-count="0"><title>2026-05-07 · 0 次公开可见贡献</title></rect>
+    <rect x="354" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-08" data-count="0"><title>2026-05-08 · 0 次公开可见贡献</title></rect>
+    <rect x="354" y="340" width="8" height="8" rx="1.5" fill="#254d65" data-date="2026-05-09" data-count="1"><title>2026-05-09 · 1 次公开可见贡献</title></rect>
+    <rect x="365" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-10" data-count="0"><title>2026-05-10 · 0 次公开可见贡献</title></rect>
+    <rect x="365" y="285" width="8" height="8" rx="1.5" fill="#254d65" data-date="2026-05-11" data-count="1"><title>2026-05-11 · 1 次公开可见贡献</title></rect>
+    <rect x="365" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-12" data-count="0"><title>2026-05-12 · 0 次公开可见贡献</title></rect>
+    <rect x="365" y="307" width="8" height="8" rx="1.5" fill="#254d65" data-date="2026-05-13" data-count="2"><title>2026-05-13 · 2 次公开可见贡献</title></rect>
+    <rect x="365" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-14" data-count="0"><title>2026-05-14 · 0 次公开可见贡献</title></rect>
+    <rect x="365" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-15" data-count="0"><title>2026-05-15 · 0 次公开可见贡献</title></rect>
+    <rect x="365" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-16" data-count="0"><title>2026-05-16 · 0 次公开可见贡献</title></rect>
+    <rect x="376" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-17" data-count="0"><title>2026-05-17 · 0 次公开可见贡献</title></rect>
+    <rect x="376" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-18" data-count="0"><title>2026-05-18 · 0 次公开可见贡献</title></rect>
+    <rect x="376" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-19" data-count="0"><title>2026-05-19 · 0 次公开可见贡献</title></rect>
+    <rect x="376" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-20" data-count="0"><title>2026-05-20 · 0 次公开可见贡献</title></rect>
+    <rect x="376" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-21" data-count="0"><title>2026-05-21 · 0 次公开可见贡献</title></rect>
+    <rect x="376" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-22" data-count="0"><title>2026-05-22 · 0 次公开可见贡献</title></rect>
+    <rect x="376" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-23" data-count="0"><title>2026-05-23 · 0 次公开可见贡献</title></rect>
+    <rect x="387" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-24" data-count="0"><title>2026-05-24 · 0 次公开可见贡献</title></rect>
+    <rect x="387" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-25" data-count="0"><title>2026-05-25 · 0 次公开可见贡献</title></rect>
+    <rect x="387" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-26" data-count="0"><title>2026-05-26 · 0 次公开可见贡献</title></rect>
+    <rect x="387" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-27" data-count="0"><title>2026-05-27 · 0 次公开可见贡献</title></rect>
+    <rect x="387" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-28" data-count="0"><title>2026-05-28 · 0 次公开可见贡献</title></rect>
+    <rect x="387" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-29" data-count="0"><title>2026-05-29 · 0 次公开可见贡献</title></rect>
+    <rect x="387" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-30" data-count="0"><title>2026-05-30 · 0 次公开可见贡献</title></rect>
+    <rect x="398" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-05-31" data-count="0"><title>2026-05-31 · 0 次公开可见贡献</title></rect>
+    <rect x="398" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-01" data-count="0"><title>2026-06-01 · 0 次公开可见贡献</title></rect>
+    <rect x="398" y="296" width="8" height="8" rx="1.5" fill="#254d65" data-date="2026-06-02" data-count="1"><title>2026-06-02 · 1 次公开可见贡献</title></rect>
+    <rect x="398" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-03" data-count="0"><title>2026-06-03 · 0 次公开可见贡献</title></rect>
+    <rect x="398" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-04" data-count="0"><title>2026-06-04 · 0 次公开可见贡献</title></rect>
+    <rect x="398" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-05" data-count="0"><title>2026-06-05 · 0 次公开可见贡献</title></rect>
+    <rect x="398" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-06" data-count="0"><title>2026-06-06 · 0 次公开可见贡献</title></rect>
+    <rect x="409" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-07" data-count="0"><title>2026-06-07 · 0 次公开可见贡献</title></rect>
+    <rect x="409" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-08" data-count="0"><title>2026-06-08 · 0 次公开可见贡献</title></rect>
+    <rect x="409" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-09" data-count="0"><title>2026-06-09 · 0 次公开可见贡献</title></rect>
+    <rect x="409" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-10" data-count="0"><title>2026-06-10 · 0 次公开可见贡献</title></rect>
+    <rect x="409" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-11" data-count="0"><title>2026-06-11 · 0 次公开可见贡献</title></rect>
+    <rect x="409" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-12" data-count="0"><title>2026-06-12 · 0 次公开可见贡献</title></rect>
+    <rect x="409" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-13" data-count="0"><title>2026-06-13 · 0 次公开可见贡献</title></rect>
+    <rect x="420" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-14" data-count="0"><title>2026-06-14 · 0 次公开可见贡献</title></rect>
+    <rect x="420" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-15" data-count="0"><title>2026-06-15 · 0 次公开可见贡献</title></rect>
+    <rect x="420" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-16" data-count="0"><title>2026-06-16 · 0 次公开可见贡献</title></rect>
+    <rect x="420" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-17" data-count="0"><title>2026-06-17 · 0 次公开可见贡献</title></rect>
+    <rect x="420" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-18" data-count="0"><title>2026-06-18 · 0 次公开可见贡献</title></rect>
+    <rect x="420" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-19" data-count="0"><title>2026-06-19 · 0 次公开可见贡献</title></rect>
+    <rect x="420" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-20" data-count="0"><title>2026-06-20 · 0 次公开可见贡献</title></rect>
+    <rect x="431" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-21" data-count="0"><title>2026-06-21 · 0 次公开可见贡献</title></rect>
+    <rect x="431" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-22" data-count="0"><title>2026-06-22 · 0 次公开可见贡献</title></rect>
+    <rect x="431" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-23" data-count="0"><title>2026-06-23 · 0 次公开可见贡献</title></rect>
+    <rect x="431" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-24" data-count="0"><title>2026-06-24 · 0 次公开可见贡献</title></rect>
+    <rect x="431" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-25" data-count="0"><title>2026-06-25 · 0 次公开可见贡献</title></rect>
+    <rect x="431" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-26" data-count="0"><title>2026-06-26 · 0 次公开可见贡献</title></rect>
+    <rect x="431" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-27" data-count="0"><title>2026-06-27 · 0 次公开可见贡献</title></rect>
+    <rect x="442" y="274" width="8" height="8" rx="1.5" fill="#254d65" data-date="2026-06-28" data-count="1"><title>2026-06-28 · 1 次公开可见贡献</title></rect>
+    <rect x="442" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-29" data-count="0"><title>2026-06-29 · 0 次公开可见贡献</title></rect>
+    <rect x="442" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-06-30" data-count="0"><title>2026-06-30 · 0 次公开可见贡献</title></rect>
+    <rect x="442" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-01" data-count="0"><title>2026-07-01 · 0 次公开可见贡献</title></rect>
+    <rect x="442" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-02" data-count="0"><title>2026-07-02 · 0 次公开可见贡献</title></rect>
+    <rect x="442" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-03" data-count="0"><title>2026-07-03 · 0 次公开可见贡献</title></rect>
+    <rect x="442" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-04" data-count="0"><title>2026-07-04 · 0 次公开可见贡献</title></rect>
+    <rect x="453" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-05" data-count="0"><title>2026-07-05 · 0 次公开可见贡献</title></rect>
+    <rect x="453" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-06" data-count="0"><title>2026-07-06 · 0 次公开可见贡献</title></rect>
+    <rect x="453" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-07" data-count="0"><title>2026-07-07 · 0 次公开可见贡献</title></rect>
+    <rect x="453" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-08" data-count="0"><title>2026-07-08 · 0 次公开可见贡献</title></rect>
+    <rect x="453" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-09" data-count="0"><title>2026-07-09 · 0 次公开可见贡献</title></rect>
+    <rect x="453" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-10" data-count="0"><title>2026-07-10 · 0 次公开可见贡献</title></rect>
+    <rect x="453" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-11" data-count="0"><title>2026-07-11 · 0 次公开可见贡献</title></rect>
+    <rect x="464" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-12" data-count="0"><title>2026-07-12 · 0 次公开可见贡献</title></rect>
+    <rect x="464" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-13" data-count="0"><title>2026-07-13 · 0 次公开可见贡献</title></rect>
+    <rect x="464" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-14" data-count="0"><title>2026-07-14 · 0 次公开可见贡献</title></rect>
+    <rect x="464" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-15" data-count="0"><title>2026-07-15 · 0 次公开可见贡献</title></rect>
+    <rect x="464" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-16" data-count="0"><title>2026-07-16 · 0 次公开可见贡献</title></rect>
+    <rect x="464" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-17" data-count="0"><title>2026-07-17 · 0 次公开可见贡献</title></rect>
+    <rect x="464" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-18" data-count="0"><title>2026-07-18 · 0 次公开可见贡献</title></rect>
+    <rect x="475" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-19" data-count="0"><title>2026-07-19 · 0 次公开可见贡献</title></rect>
+    <rect x="475" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-20" data-count="0"><title>2026-07-20 · 0 次公开可见贡献</title></rect>
+    <rect x="475" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-21" data-count="0"><title>2026-07-21 · 0 次公开可见贡献</title></rect>
+    <rect x="475" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-22" data-count="0"><title>2026-07-22 · 0 次公开可见贡献</title></rect>
+    <rect x="475" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-23" data-count="0"><title>2026-07-23 · 0 次公开可见贡献</title></rect>
+    <rect x="475" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-24" data-count="0"><title>2026-07-24 · 0 次公开可见贡献</title></rect>
+    <rect x="475" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-25" data-count="0"><title>2026-07-25 · 0 次公开可见贡献</title></rect>
+    <rect x="486" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-26" data-count="0"><title>2026-07-26 · 0 次公开可见贡献</title></rect>
+    <rect x="486" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-27" data-count="0"><title>2026-07-27 · 0 次公开可见贡献</title></rect>
+    <rect x="486" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-28" data-count="0"><title>2026-07-28 · 0 次公开可见贡献</title></rect>
+    <rect x="486" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-29" data-count="0"><title>2026-07-29 · 0 次公开可见贡献</title></rect>
+    <rect x="486" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-30" data-count="0"><title>2026-07-30 · 0 次公开可见贡献</title></rect>
+    <rect x="486" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-07-31" data-count="0"><title>2026-07-31 · 0 次公开可见贡献</title></rect>
+    <rect x="486" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-01" data-count="0"><title>2026-08-01 · 0 次公开可见贡献</title></rect>
+    <rect x="497" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-02" data-count="0"><title>2026-08-02 · 0 次公开可见贡献</title></rect>
+    <rect x="497" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-03" data-count="0"><title>2026-08-03 · 0 次公开可见贡献</title></rect>
+    <rect x="497" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-04" data-count="0"><title>2026-08-04 · 0 次公开可见贡献</title></rect>
+    <rect x="497" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-05" data-count="0"><title>2026-08-05 · 0 次公开可见贡献</title></rect>
+    <rect x="497" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-06" data-count="0"><title>2026-08-06 · 0 次公开可见贡献</title></rect>
+    <rect x="497" y="329" width="8" height="8" rx="1.5" fill="#2b8291" data-date="2026-08-07" data-count="5"><title>2026-08-07 · 5 次公开可见贡献</title></rect>
+    <rect x="497" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-08" data-count="0"><title>2026-08-08 · 0 次公开可见贡献</title></rect>
+    <rect x="508" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-09" data-count="0"><title>2026-08-09 · 0 次公开可见贡献</title></rect>
+    <rect x="508" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-10" data-count="0"><title>2026-08-10 · 0 次公开可见贡献</title></rect>
+    <rect x="508" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-11" data-count="0"><title>2026-08-11 · 0 次公开可见贡献</title></rect>
+    <rect x="508" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-12" data-count="0"><title>2026-08-12 · 0 次公开可见贡献</title></rect>
+    <rect x="508" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-13" data-count="0"><title>2026-08-13 · 0 次公开可见贡献</title></rect>
+    <rect x="508" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-14" data-count="0"><title>2026-08-14 · 0 次公开可见贡献</title></rect>
+    <rect x="508" y="340" width="8" height="8" rx="1.5" fill="#254d65" data-date="2026-08-15" data-count="1"><title>2026-08-15 · 1 次公开可见贡献</title></rect>
+    <rect x="519" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-16" data-count="0"><title>2026-08-16 · 0 次公开可见贡献</title></rect>
+    <rect x="519" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-17" data-count="0"><title>2026-08-17 · 0 次公开可见贡献</title></rect>
+    <rect x="519" y="296" width="8" height="8" rx="1.5" fill="#2b8291" data-date="2026-08-18" data-count="5"><title>2026-08-18 · 5 次公开可见贡献</title></rect>
+    <rect x="519" y="307" width="8" height="8" rx="1.5" fill="#2b8291" data-date="2026-08-19" data-count="4"><title>2026-08-19 · 4 次公开可见贡献</title></rect>
+    <rect x="519" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-20" data-count="0"><title>2026-08-20 · 0 次公开可见贡献</title></rect>
+    <rect x="519" y="329" width="8" height="8" rx="1.5" fill="#254d65" data-date="2026-08-21" data-count="1"><title>2026-08-21 · 1 次公开可见贡献</title></rect>
+    <rect x="519" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-22" data-count="0"><title>2026-08-22 · 0 次公开可见贡献</title></rect>
+    <rect x="530" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-23" data-count="0"><title>2026-08-23 · 0 次公开可见贡献</title></rect>
+    <rect x="530" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-24" data-count="0"><title>2026-08-24 · 0 次公开可见贡献</title></rect>
+    <rect x="530" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-25" data-count="0"><title>2026-08-25 · 0 次公开可见贡献</title></rect>
+    <rect x="530" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-26" data-count="0"><title>2026-08-26 · 0 次公开可见贡献</title></rect>
+    <rect x="530" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-27" data-count="0"><title>2026-08-27 · 0 次公开可见贡献</title></rect>
+    <rect x="530" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-28" data-count="0"><title>2026-08-28 · 0 次公开可见贡献</title></rect>
+    <rect x="530" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-29" data-count="0"><title>2026-08-29 · 0 次公开可见贡献</title></rect>
+    <rect x="541" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-30" data-count="0"><title>2026-08-30 · 0 次公开可见贡献</title></rect>
+    <rect x="541" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-08-31" data-count="0"><title>2026-08-31 · 0 次公开可见贡献</title></rect>
+    <rect x="541" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-01" data-count="0"><title>2026-09-01 · 0 次公开可见贡献</title></rect>
+    <rect x="541" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-02" data-count="0"><title>2026-09-02 · 0 次公开可见贡献</title></rect>
+    <rect x="541" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-03" data-count="0"><title>2026-09-03 · 0 次公开可见贡献</title></rect>
+    <rect x="541" y="329" width="8" height="8" rx="1.5" fill="#2b8291" data-date="2026-09-04" data-count="4"><title>2026-09-04 · 4 次公开可见贡献</title></rect>
+    <rect x="541" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-05" data-count="0"><title>2026-09-05 · 0 次公开可见贡献</title></rect>
+    <rect x="552" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-06" data-count="0"><title>2026-09-06 · 0 次公开可见贡献</title></rect>
+    <rect x="552" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-07" data-count="0"><title>2026-09-07 · 0 次公开可见贡献</title></rect>
+    <rect x="552" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-08" data-count="0"><title>2026-09-08 · 0 次公开可见贡献</title></rect>
+    <rect x="552" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-09" data-count="0"><title>2026-09-09 · 0 次公开可见贡献</title></rect>
+    <rect x="552" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-10" data-count="0"><title>2026-09-10 · 0 次公开可见贡献</title></rect>
+    <rect x="552" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-11" data-count="0"><title>2026-09-11 · 0 次公开可见贡献</title></rect>
+    <rect x="552" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-12" data-count="0"><title>2026-09-12 · 0 次公开可见贡献</title></rect>
+    <rect x="563" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-13" data-count="0"><title>2026-09-13 · 0 次公开可见贡献</title></rect>
+    <rect x="563" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-14" data-count="0"><title>2026-09-14 · 0 次公开可见贡献</title></rect>
+    <rect x="563" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-15" data-count="0"><title>2026-09-15 · 0 次公开可见贡献</title></rect>
+    <rect x="563" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-16" data-count="0"><title>2026-09-16 · 0 次公开可见贡献</title></rect>
+    <rect x="563" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-17" data-count="0"><title>2026-09-17 · 0 次公开可见贡献</title></rect>
+    <rect x="563" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-18" data-count="0"><title>2026-09-18 · 0 次公开可见贡献</title></rect>
+    <rect x="563" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-19" data-count="0"><title>2026-09-19 · 0 次公开可见贡献</title></rect>
+    <rect x="574" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-20" data-count="0"><title>2026-09-20 · 0 次公开可见贡献</title></rect>
+    <rect x="574" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-21" data-count="0"><title>2026-09-21 · 0 次公开可见贡献</title></rect>
+    <rect x="574" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-22" data-count="0"><title>2026-09-22 · 0 次公开可见贡献</title></rect>
+    <rect x="574" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-23" data-count="0"><title>2026-09-23 · 0 次公开可见贡献</title></rect>
+    <rect x="574" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-24" data-count="0"><title>2026-09-24 · 0 次公开可见贡献</title></rect>
+    <rect x="574" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-25" data-count="0"><title>2026-09-25 · 0 次公开可见贡献</title></rect>
+    <rect x="574" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-26" data-count="0"><title>2026-09-26 · 0 次公开可见贡献</title></rect>
+    <rect x="585" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-27" data-count="0"><title>2026-09-27 · 0 次公开可见贡献</title></rect>
+    <rect x="585" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-28" data-count="0"><title>2026-09-28 · 0 次公开可见贡献</title></rect>
+    <rect x="585" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-29" data-count="0"><title>2026-09-29 · 0 次公开可见贡献</title></rect>
+    <rect x="585" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-09-30" data-count="0"><title>2026-09-30 · 0 次公开可见贡献</title></rect>
+    <rect x="585" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-01" data-count="0"><title>2026-10-01 · 0 次公开可见贡献</title></rect>
+    <rect x="585" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-02" data-count="0"><title>2026-10-02 · 0 次公开可见贡献</title></rect>
+    <rect x="585" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-03" data-count="0"><title>2026-10-03 · 0 次公开可见贡献</title></rect>
+    <rect x="596" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-04" data-count="0"><title>2026-10-04 · 0 次公开可见贡献</title></rect>
+    <rect x="596" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-05" data-count="0"><title>2026-10-05 · 0 次公开可见贡献</title></rect>
+    <rect x="596" y="296" width="8" height="8" rx="1.5" fill="#254d65" data-date="2026-10-06" data-count="2"><title>2026-10-06 · 2 次公开可见贡献</title></rect>
+    <rect x="596" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-07" data-count="0"><title>2026-10-07 · 0 次公开可见贡献</title></rect>
+    <rect x="596" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-08" data-count="0"><title>2026-10-08 · 0 次公开可见贡献</title></rect>
+    <rect x="596" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-09" data-count="0"><title>2026-10-09 · 0 次公开可见贡献</title></rect>
+    <rect x="596" y="340" width="8" height="8" rx="1.5" fill="#a596ec" data-date="2026-10-10" data-count="10"><title>2026-10-10 · 10 次公开可见贡献</title></rect>
+    <rect x="607" y="274" width="8" height="8" rx="1.5" fill="#2b8291" data-date="2026-10-11" data-count="4"><title>2026-10-11 · 4 次公开可见贡献</title></rect>
+    <rect x="607" y="285" width="8" height="8" rx="1.5" fill="#2b8291" data-date="2026-10-12" data-count="5"><title>2026-10-12 · 5 次公开可见贡献</title></rect>
+    <rect x="607" y="296" width="8" height="8" rx="1.5" fill="#2b8291" data-date="2026-10-13" data-count="3"><title>2026-10-13 · 3 次公开可见贡献</title></rect>
+    <rect x="607" y="307" width="8" height="8" rx="1.5" fill="#254d65" data-date="2026-10-14" data-count="1"><title>2026-10-14 · 1 次公开可见贡献</title></rect>
+    <rect x="607" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-15" data-count="0"><title>2026-10-15 · 0 次公开可见贡献</title></rect>
+    <rect x="607" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-16" data-count="0"><title>2026-10-16 · 0 次公开可见贡献</title></rect>
+    <rect x="607" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-17" data-count="0"><title>2026-10-17 · 0 次公开可见贡献</title></rect>
+    <rect x="618" y="274" width="8" height="8" rx="1.5" fill="#a596ec" data-date="2026-10-18" data-count="10"><title>2026-10-18 · 10 次公开可见贡献</title></rect>
+    <rect x="618" y="285" width="8" height="8" rx="1.5" fill="#254d65" data-date="2026-10-19" data-count="1"><title>2026-10-19 · 1 次公开可见贡献</title></rect>
+    <rect x="618" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-20" data-count="0"><title>2026-10-20 · 0 次公开可见贡献</title></rect>
+    <rect x="618" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-21" data-count="0"><title>2026-10-21 · 0 次公开可见贡献</title></rect>
+    <rect x="618" y="318" width="8" height="8" rx="1.5" fill="#254d65" data-date="2026-10-22" data-count="1"><title>2026-10-22 · 1 次公开可见贡献</title></rect>
+    <rect x="618" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-23" data-count="0"><title>2026-10-23 · 0 次公开可见贡献</title></rect>
+    <rect x="618" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-24" data-count="0"><title>2026-10-24 · 0 次公开可见贡献</title></rect>
+    <rect x="629" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-25" data-count="0"><title>2026-10-25 · 0 次公开可见贡献</title></rect>
+    <rect x="629" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-26" data-count="0"><title>2026-10-26 · 0 次公开可见贡献</title></rect>
+    <rect x="629" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-27" data-count="0"><title>2026-10-27 · 0 次公开可见贡献</title></rect>
+    <rect x="629" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-28" data-count="0"><title>2026-10-28 · 0 次公开可见贡献</title></rect>
+    <rect x="629" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-29" data-count="0"><title>2026-10-29 · 0 次公开可见贡献</title></rect>
+    <rect x="629" y="329" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-30" data-count="0"><title>2026-10-30 · 0 次公开可见贡献</title></rect>
+    <rect x="629" y="340" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-10-31" data-count="0"><title>2026-10-31 · 0 次公开可见贡献</title></rect>
+    <rect x="640" y="274" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-11-01" data-count="0"><title>2026-11-01 · 0 次公开可见贡献</title></rect>
+    <rect x="640" y="285" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-11-02" data-count="0"><title>2026-11-02 · 0 次公开可见贡献</title></rect>
+    <rect x="640" y="296" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-11-03" data-count="0"><title>2026-11-03 · 0 次公开可见贡献</title></rect>
+    <rect x="640" y="307" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-11-04" data-count="0"><title>2026-11-04 · 0 次公开可见贡献</title></rect>
+    <rect x="640" y="318" width="8" height="8" rx="1.5" fill="#1f2a3c" data-date="2026-11-05" data-count="0"><title>2026-11-05 · 0 次公开可见贡献</title></rect>
+    <rect x="640" y="329" width="8" height="8" rx="1.5" fill="#34d6c4" data-date="2026-11-06" data-count="7"><title>2026-11-06 · 7 次公开可见贡献</title></rect>
+    <text x="29" y="381" font-size="11" fill="#819bb9">自动同步于 2026-11-06 · GitHub 按 UTC 统计</text>
+  </g>
+</svg>
