@@ -76,7 +76,7 @@ export function parseNativeCalendar(html,now=new Date()) {
   const declaredTotal=heading[1].toLowerCase()==='no'?0:integer(heading[1],'total contributions');
 
   const cells=[...html.matchAll(/<td\b([^>]*)>/gi)].map(m=>attributes(m[1])).filter(a=>(a.class??'').split(/\s+/).includes('ContributionCalendar-day')&&Object.hasOwn(a,'data-date'));
-  check(cells.length===expectedDays,'native day cell count');
+  check(cells.length===expectedDays,`native day cell count: expected ${expectedDays} (${range.from}..${range.to}), received ${cells.length}; dates ${cells.map(cell=>cell['data-date']).sort().at(0)}..${cells.map(cell=>cell['data-date']).sort().at(-1)}`);
   const ids=new Set();
   for(const cell of cells) {
     check(typeof cell.id==='string'&&cell.id.length>0&&!ids.has(cell.id),'unique day cell IDs');
