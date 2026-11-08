@@ -6,8 +6,9 @@ export const NATIVE_CALENDAR_URL=`https://github.com/users/${USERNAME}/contribut
 const DAY=86400000;
 const MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
 
-export async function fetchGithubContributions({fetchImpl=fetch,attempts=3}={}) {
+export async function fetchGithubContributions({fetchImpl=fetch,attempts=5,sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms))}={}) {
   check(Number.isSafeInteger(attempts)&&attempts>0&&attempts<=5,'fetch attempts');
+  const retryUrls=[NATIVE_CALENDAR_URL,`https://github.com/users/${USERNAME.toLowerCase()}/contributions`,`${NATIVE_CALENDAR_URL}?tab=overview`];
   let calendarUrl=NATIVE_CALENDAR_URL;
   for(let attempt=0;attempt<attempts;attempt++) {
     try {
@@ -17,9 +18,9 @@ export async function fetchGithubContributions({fetchImpl=fetch,attempts=3}={}) 
         signal:AbortSignal.timeout(20000),
       });
       if(!response.ok) {
-        // GitHub account names are case-insensitive. A server/cache failure on
-        // the mixed-case route need not affect the equivalent lowercase route.
-        if(response.status>=500&&response.status<=599) calendarUrl=`https://github.com/users/${USERNAME.toLowerCase()}/contributions`;
+        // Equivalent routes can succeed when GitHub times out on the default
+        // route. Neither changes the account or requests a different year.
+        if(response.status>=500&&response.status<=599) calendarUrl=retryUrls[Math.min(attempt+1,retryUrls.length-1)];
         throw new Error(`GitHub calendar HTTP ${response.status}`);
       }
       if(!/^text\/html(?:;|$)/i.test(response.headers.get('content-type')??'')) throw new Error('GitHub calendar did not return HTML');
@@ -28,7 +29,7 @@ export async function fetchGithubContributions({fetchImpl=fetch,attempts=3}={}) 
       return html;
     } catch(error) {
       if(attempt===attempts-1) throw error;
-      await new Promise(resolve=>setTimeout(resolve,1000*(attempt+1)));
+      await sleep([5000,15000,30000,60000][attempt]);
     }
   }
 }

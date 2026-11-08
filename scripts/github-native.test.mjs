@@ -109,7 +109,7 @@ test('public native fetch sends no credentials or token and rejects redirected/n
 
 test('a server error retries the equivalent lowercase account URL and validates the returned calendar',async()=>{
   const urls=[];
-  const html=await fetchGithubContributions({attempts:2,fetchImpl:async(url,options)=>{
+  const html=await fetchGithubContributions({attempts:2,sleep:async()=>{},fetchImpl:async(url,options)=>{
     urls.push(url);
     assert.equal(options.credentials,'omit');assert.equal(options.redirect,'error');
     if(url===endpoint) return {ok:false,status:504};
@@ -118,6 +118,38 @@ test('a server error retries the equivalent lowercase account URL and validates 
   }});
   assert.deepEqual(urls,[endpoint,'https://github.com/users/8aus1r/contributions']);
   assert.equal(normalizeGithub(html,now).total_contributions,6);
+});
+
+test('repeated server errors try the overview calendar without changing account or data scope',async()=>{
+  const urls=[];
+  const html=await fetchGithubContributions({attempts:3,sleep:async()=>{},fetchImpl:async(url,options)=>{
+    urls.push(url);
+    assert.equal(options.credentials,'omit');assert.equal(options.redirect,'error');
+    assert.ok(!('Authorization' in options.headers)&&!('Cookie' in options.headers));
+    if(url!==`${endpoint}?tab=overview`) return {ok:false,status:504};
+    return {ok:true,status:200,headers:new Headers({'content-type':'text/html'}),text:async()=>fixture()};
+  }});
+  assert.deepEqual(urls,[endpoint,'https://github.com/users/8aus1r/contributions',`${endpoint}?tab=overview`]);
+  const result=normalizeGithub(html,now);
+  assert.equal(result.total_contributions,6);assert.equal(result.days.length,370);
+  assert.equal(result.source,endpoint);
+});
+
+test('default retries allow upstream recovery with bounded backoff and no more than five requests',async()=>{
+  let calls=0;
+  const delays=[];
+  const html=await fetchGithubContributions({sleep:async ms=>delays.push(ms),fetchImpl:async()=>{
+    calls++;
+    if(calls<5) return {ok:false,status:504};
+    return {ok:true,status:200,headers:new Headers({'content-type':'text/html'}),text:async()=>fixture()};
+  }});
+  assert.equal(calls,5);assert.deepEqual(delays,[5000,15000,30000,60000]);
+  assert.equal(normalizeGithub(html,now).total_contributions,6);
+  calls=0;delays.length=0;
+  await assert.rejects(fetchGithubContributions({sleep:async ms=>delays.push(ms),fetchImpl:async()=>{
+    calls++;return {ok:false,status:504};
+  }}),/HTTP 504/);
+  assert.equal(calls,5);assert.deepEqual(delays,[5000,15000,30000,60000]);
 });
 
 test('README uses the actual native range and only replaces its bounded section',()=>{
