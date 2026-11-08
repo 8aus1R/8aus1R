@@ -107,6 +107,19 @@ test('public native fetch sends no credentials or token and rejects redirected/n
   ]) await assert.rejects(fetchGithubContributions({attempts:1,fetchImpl:async()=>response}));
 });
 
+test('a server error retries the equivalent lowercase account URL and validates the returned calendar',async()=>{
+  const urls=[];
+  const html=await fetchGithubContributions({attempts:2,fetchImpl:async(url,options)=>{
+    urls.push(url);
+    assert.equal(options.credentials,'omit');assert.equal(options.redirect,'error');
+    if(url===endpoint) return {ok:false,status:504};
+    assert.equal(url,'https://github.com/users/8aus1r/contributions');
+    return {ok:true,status:200,headers:new Headers({'content-type':'text/html'}),text:async()=>fixture()};
+  }});
+  assert.deepEqual(urls,[endpoint,'https://github.com/users/8aus1r/contributions']);
+  assert.equal(normalizeGithub(html,now).total_contributions,6);
+});
+
 test('README uses the actual native range and only replaces its bounded section',()=>{
   const s=normalizeGithub(fixture(),now);
   const readme='Header\n<!-- GITHUB:START -->old<!-- GITHUB:END -->\n<!-- LEETCODE:START -->same<!-- LEETCODE:END -->';

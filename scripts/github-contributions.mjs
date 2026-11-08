@@ -8,14 +8,20 @@ const MONTHS=['January','February','March','April','May','June','July','August',
 
 export async function fetchGithubContributions({fetchImpl=fetch,attempts=3}={}) {
   check(Number.isSafeInteger(attempts)&&attempts>0&&attempts<=5,'fetch attempts');
+  let calendarUrl=NATIVE_CALENDAR_URL;
   for(let attempt=0;attempt<attempts;attempt++) {
     try {
-      const response=await fetchImpl(NATIVE_CALENDAR_URL,{
+      const response=await fetchImpl(calendarUrl,{
         method:'GET',credentials:'omit',redirect:'error',
         headers:{Accept:'text/html','Accept-Language':'en-US,en;q=0.9','User-Agent':'8aus1R-profile-card'},
         signal:AbortSignal.timeout(20000),
       });
-      if(!response.ok) throw new Error(`GitHub calendar HTTP ${response.status}`);
+      if(!response.ok) {
+        // GitHub account names are case-insensitive. A server/cache failure on
+        // the mixed-case route need not affect the equivalent lowercase route.
+        if(response.status>=500&&response.status<=599) calendarUrl=`https://github.com/users/${USERNAME.toLowerCase()}/contributions`;
+        throw new Error(`GitHub calendar HTTP ${response.status}`);
+      }
       if(!/^text\/html(?:;|$)/i.test(response.headers.get('content-type')??'')) throw new Error('GitHub calendar did not return HTML');
       const html=await response.text();
       check(html.length>0&&html.length<=2000000,'calendar response size');
