@@ -9,15 +9,49 @@ import { refreshGithub } from './update-github.mjs';
 const now=new Date('2026-11-06T08:00:00Z');
 const endpoint='https://github.com/users/8aus1R/contributions';
 const monthNames=['January','February','March','April','May','June','July','August','September','October','November','December'];
-function fixture({zero=false}={}) {
-  const start=Date.parse('2025-11-02T00:00:00Z');
-  const days=Array.from({length:370},(_,i)=>{
-    const d=new Date(start+i*86400000),count=!zero&&[0,1,2,367,368,369].includes(i)?1:0;
+function fixture({zero=false,from='2025-11-02',to='2026-11-06',graphFrom=from}={}) {
+  const start=Date.parse(`${from}T00:00:00Z`);
+  const length=(Date.parse(`${to}T00:00:00Z`)-start)/86400000+1;
+  const days=Array.from({length},(_,i)=>{
+    const d=new Date(start+i*86400000),count=!zero&&[0,1,2,length-3,length-2,length-1].includes(i)?1:0;
     const n=d.getUTCDate(),suffix=n%100>=11&&n%100<=13?'th':({1:'st',2:'nd',3:'rd'}[n%10]??'th');
     return `<td class="ContributionCalendar-day" data-date="${d.toISOString().slice(0,10)}" id="day-${i}" data-level="${count?1:0}"></td><tool-tip for="day-${i}">${count?'1 contribution':'No contributions'} on ${monthNames[d.getUTCMonth()]} ${n}${suffix}.</tool-tip>`;
   });
-  return `<h2 id="js-contribution-activity-description">\n ${zero?0:6}\n contributions in the last year\n</h2><div data-url="/8aus1R" data-graph-url="/users/8aus1R/contributions" data-from="2025-11-02 00:00:00 UTC" data-to="2026-11-06 23:59:59 UTC">${days.reverse().join('\n')}</div>`;
+  return `<h2 id="js-contribution-activity-description">\n ${zero?0:6}\n contributions in the last year\n</h2><div data-url="/8aus1R" data-graph-url="/users/8aus1R/contributions" data-from="${graphFrom} 00:00:00 UTC" data-to="${to} 23:59:59 UTC">${days.reverse().join('\n')}</div>`;
 }
+
+test('Sunday rollover uses the complete 365-day calendar when graph metadata retains the previous week',async()=>{
+  const sunday=new Date('2026-11-08T09:00:00Z');
+  const html=fixture({from:'2025-11-09',to:'2026-11-08',graphFrom:'2025-11-02'});
+  const s=normalizeGithub(html,sunday);
+  assert.deepEqual(s.range,{from:'2025-11-09',to:'2026-11-08',timezone:'UTC'});
+  assert.equal(s.days.length,365);assert.equal(s.total_contributions,6);
+  assert.equal(s.active_days,6);assert.equal(s.longest_streak,3);assert.equal(s.recent_30_days,3);
+  const root=await mkdtemp(join(tmpdir(),'github-native-'));
+  try {
+    await writeFile(join(root,'README.md'),'<!-- GITHUB:START -->old<!-- GITHUB:END -->');
+    await refreshGithub({root,now:sunday,load:async()=>html});
+    const svg=await readFile(join(root,'assets/github-contributions.svg'),'utf8');
+    assert.equal((svg.match(/data-date=/g)??[]).length,365);
+    assert.ok(!svg.includes('2025-11-02'));assert.ok(svg.includes('2025-11-09'));
+  } finally {
+    assert.equal(dirname(resolve(root)),resolve(tmpdir()));assert.ok(basename(root).startsWith('github-native-'));
+    await rm(root,{recursive:true,force:true});
+  }
+});
+
+test('Sunday rollover still rejects missing dates, missing tooltips and inconsistent totals',()=>{
+  const html=fixture({from:'2025-11-09',to:'2026-11-08',graphFrom:'2025-11-02'});
+  for(const invalid of [
+    html.replace(/<td[^>]*id="day-1"[^>]*><\/td>/,''),
+    html.replace('data-date="2025-11-10"','data-date="2025-11-09"'),
+    html.replace(/<tool-tip for="day-0">.*?<\/tool-tip>/,''),
+    html.replace('6\n contributions','7\n contributions'),
+    html.replace('data-from="2025-11-02','data-from="2025-10-26'),
+  ]) assert.throws(()=>normalizeGithub(invalid,new Date('2026-11-08T09:00:00Z')));
+  // A missing leading week on other weekdays is not the observed Sunday boundary.
+  assert.throws(()=>normalizeGithub(fixture({from:'2025-11-09',graphFrom:'2025-11-02'}),now));
+});
 
 test('native calendar keeps its full window and derives all metrics from actual date cells',()=>{
   const s=normalizeGithub(fixture(),now);

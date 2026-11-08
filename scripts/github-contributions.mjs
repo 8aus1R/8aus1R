@@ -64,8 +64,9 @@ export function parseNativeCalendar(html,now=new Date()) {
   check(graph['data-graph-url'].toLowerCase()===`/users/${USERNAME.toLowerCase()}/contributions`&&graph['data-url']?.toLowerCase()===`/${USERNAME.toLowerCase()}`,'account mismatch');
   const range={from:bound(graph['data-from'],'00:00:00','calendar start'),to:bound(graph['data-to'],'23:59:59','calendar end'),timezone:'UTC'};
   check(range.to===now.toISOString().slice(0,10),'calendar is not current UTC day');
-  const first=Date.parse(`${range.from}T00:00:00Z`),last=Date.parse(`${range.to}T00:00:00Z`);
-  const expectedDays=(last-first)/DAY+1;
+  let first=Date.parse(`${range.from}T00:00:00Z`);
+  const last=Date.parse(`${range.to}T00:00:00Z`);
+  let expectedDays=(last-first)/DAY+1;
   check(Number.isInteger(expectedDays)&&expectedDays>=365&&expectedDays<=372,'native calendar window');
   check(new Date(first).getUTCDay()===0,'native calendar starts on Sunday');
 
@@ -76,7 +77,17 @@ export function parseNativeCalendar(html,now=new Date()) {
   const declaredTotal=heading[1].toLowerCase()==='no'?0:integer(heading[1],'total contributions');
 
   const cells=[...html.matchAll(/<td\b([^>]*)>/gi)].map(m=>attributes(m[1])).filter(a=>(a.class??'').split(/\s+/).includes('ContributionCalendar-day')&&Object.hasOwn(a,'data-date'));
-  check(cells.length===expectedDays,`native day cell count: expected ${expectedDays} (${range.from}..${range.to}), received ${cells.length}; dates ${cells.map(cell=>cell['data-date']).sort().at(0)}..${cells.map(cell=>cell['data-date']).sort().at(-1)}`);
+  const dates=cells.map(cell=>cell['data-date']).sort();
+  // At Sunday's rollover GitHub can retain the previous leading week in
+  // data-from while rendering a complete 365-day calendar starting a week later.
+  // Accept only that exact boundary; every date and total is still checked below.
+  if(expectedDays===372&&cells.length===365&&new Date(last).getUTCDay()===0&&
+    dates[0]===new Date(first+7*DAY).toISOString().slice(0,10)&&dates.at(-1)===range.to) {
+    first+=7*DAY;
+    range.from=dates[0];
+    expectedDays=365;
+  }
+  check(cells.length===expectedDays,`native day cell count: expected ${expectedDays} (${range.from}..${range.to}), received ${cells.length}; dates ${dates[0]}..${dates.at(-1)}`);
   const ids=new Set();
   for(const cell of cells) {
     check(typeof cell.id==='string'&&cell.id.length>0&&!ids.has(cell.id),'unique day cell IDs');
