@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="700" height="448" viewBox="0 0 700 448" role="img" aria-labelledby="title desc">
   <title id="title">力扣数据总览</title>
-  <desc id="desc">力扣数据面板，2026-11-09同步：1634题，简单612、中等811、困难211；通过率77.32%；阅读30.6K、获赞1.4K、收藏299、声望L4。</desc>
+  <desc id="desc">力扣数据面板，2026-11-10同步：1634题，简单612、中等811、困难211；通过率77.32%；阅读30.7K、获赞1.4K、收藏299、声望L4。</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#161a2b"/><stop offset="1" stop-color="#101a2b"/></linearGradient>
     <linearGradient id="upper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e2031"/><stop offset="1" stop-color="#1a2032"/></linearGradient>
@@ -36,7 +36,7 @@
     <text x="630.5" y="318" text-anchor="middle" font-size="13" font-weight="700" fill="#d1b0ff">L4</text>
     <line x1="45" y1="330" x2="654" y2="330" stroke="#35516d"/>
     <text x="47" y="351" font-size="12" fill="#a5bbd7">阅读总数</text>
-    <text x="47" y="383" font-size="27" font-weight="700" fill="#5cd9ee">30.6K</text>
+    <text x="47" y="383" font-size="27" font-weight="700" fill="#5cd9ee">30.7K</text>
     <line x1="205" y1="340" x2="205" y2="392" stroke="#34516d"/>
     <text x="226" y="351" font-size="12" fill="#a5bbd7">获赞</text>
     <text x="226" y="383" font-size="27" font-weight="700" fill="#5cd9ee">1.4K</text>
@@ -46,7 +46,7 @@
     <line x1="543" y1="340" x2="543" y2="392" stroke="#34516d"/>
     <text x="564" y="351" font-size="12" fill="#a5bbd7">声望等级</text>
     <text x="564" y="383" font-size="27" font-weight="700" fill="#c7adff">L4</text>
-    <text x="29" y="433" font-size="11" fill="#819bb9">自动同步于 2026-11-09  ·  每日更新</text>
+    <text x="29" y="433" font-size="11" fill="#819bb9">自动同步于 2026-11-10  ·  每日更新</text>
   </g>
 </svg>
 
