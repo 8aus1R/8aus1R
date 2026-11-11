@@ -1,20 +1,20 @@
 {
   "source": "https://leetcode.cn/u/8aus1rchas1n0cl0ut/",
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "solved": {
-    "total": 1634,
+    "total": 1635,
     "easy": 612,
-    "medium": 811,
+    "medium": 812,
     "hard": 211
   },
-  "acceptance_rate_percent": 77.32,
+  "acceptance_rate_percent": 77.33,
   "submissions": {
-    "accepted": 3600,
-    "total": 4656
+    "accepted": 3603,
+    "total": 4659
   },
   "community": {
-    "source_date": "2026-11-10",
-    "views": 30657,
+    "source_date": "2026-11-11",
+    "views": 30678,
     "likes": 1367,
     "favorites": 299,
     "views_display": "30.7K",
