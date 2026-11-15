@@ -1,6 +1,6 @@
 {
   "source": "https://leetcode.cn/u/8aus1rchas1n0cl0ut/",
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "solved": {
     "total": 1637,
     "easy": 613,
@@ -9,12 +9,12 @@
   },
   "acceptance_rate_percent": 77.36,
   "submissions": {
-    "accepted": 3611,
-    "total": 4668
+    "accepted": 3612,
+    "total": 4669
   },
   "community": {
-    "source_date": "2026-11-14",
-    "views": 30752,
+    "source_date": "2026-11-15",
+    "views": 30774,
     "likes": 1371,
     "favorites": 299,
     "views_display": "30.8K",
