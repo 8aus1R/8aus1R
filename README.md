@@ -55,7 +55,7 @@
 
 <!-- LEETCODE:START -->
 <a href="https://leetcode.cn/u/8aus1rchas1n0cl0ut/">
-  <img src="./assets/leetcode-live.svg?v=f4b558c3214e" width="700" alt="力扣数据面板，2026-11-24同步：1643题，简单615、中等814、困难214；通过率77.42%；阅读31.0K、获赞1.4K、收藏299、声望L4。" />
+  <img src="./assets/leetcode-live.svg?v=e689203d254a" width="700" alt="力扣数据面板，2026-11-25同步：1643题，简单615、中等814、困难214；通过率77.43%；阅读31.0K、获赞1.4K、收藏299、声望L4。" />
 </a>
 
 <p><a href="https://leetcode.cn/u/8aus1rchas1n0cl0ut/"><strong>Guardian &nbsp; · &nbsp; 2555 &nbsp; · &nbsp; Top 0.35%</strong></a></p>
