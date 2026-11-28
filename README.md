@@ -47,7 +47,7 @@
 
 <!-- GITHUB:START -->
 <a href="https://github.com/8aus1R?tab=overview">
-  <img src="./assets/github-contributions.svg?v=43251125ae95" width="700" alt="GitHub 原生日历公开可见贡献（2025-11-23至2026-11-27）：206次，活跃40天，最长连续6天，近30天108次；2026-11-27同步。" />
+  <img src="./assets/github-contributions.svg?v=3e93d82ef536" width="700" alt="GitHub 原生日历公开可见贡献（2025-11-23至2026-11-28）：206次，活跃40天，最长连续6天，近30天108次；2026-11-28同步。" />
 </a>
 <!-- GITHUB:END -->
 
